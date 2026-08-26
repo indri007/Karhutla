@@ -1,0 +1,21 @@
+year,province,pmdn_trillion_idr,pma_million_usd,pma_trillion_idr,total_investment_trillion_idr,total_projects,primary_driver
+2023,Kalimantan Timur,48.2,1560.4,23.4,71.6,3420,IKN Nusantara & Pertambangan Batubara
+2023,Kalimantan Barat,16.8,680.5,10.2,27.0,1850,Perkebunan Sawit & Smelter Bauksit
+2023,Kalimantan Tengah,14.5,590.2,8.8,23.3,1420,Perkebunan Sawit & Food Estate
+2023,Kalimantan Selatan,13.9,380.0,5.7,19.6,1280,Pertambangan Batubara & Sawit
+2023,Kalimantan Utara,6.8,1120.0,16.8,23.6,640,Kawasan Industri Hijau (KIPI) & PLTA
+2024,Kalimantan Timur,56.4,1820.0,28.2,84.6,4100,Akselerasi IKN & Energi
+2024,Kalimantan Barat,19.2,740.0,11.5,30.7,2100,Hilirisasi Sawit & Bauksit
+2024,Kalimantan Tengah,16.8,650.0,10.1,26.9,1650,Ekspansi Kelapa Sawit & Hutan Tanaman
+2024,Kalimantan Selatan,15.5,420.0,6.5,22.0,1450,Batubara & Pelabuhan CPO
+2024,Kalimantan Utara,8.5,1350.0,20.9,29.4,780,Konstruksi KIPI & Petrokimia
+2025,Kalimantan Timur,64.0,2100.0,33.6,97.6,4650,Properti IKN & Hilirisasi Gas
+2025,Kalimantan Barat,22.0,820.0,13.1,35.1,2380,Perkebunan Sawit & Logistik
+2025,Kalimantan Tengah,18.9,710.0,11.4,30.3,1820,Industri Pengolahan Sawit & HTI
+2025,Kalimantan Selatan,17.2,460.0,7.4,24.6,1590,Industri Hilir Batubara & CPO
+2025,Kalimantan Utara,11.2,1580.0,25.3,36.5,920,Infrastruktur Pelabuhan & Energi Hijau
+2026,Kalimantan Timur,72.5,2350.0,38.8,111.3,5200,Pusat Bisnis IKN & Infrastruktur Energi
+2026,Kalimantan Barat,25.4,890.0,14.7,40.1,2650,Agroindustri Sawit & Ekspor Bauksit
+2026,Kalimantan Tengah,21.0,780.0,12.9,33.9,2010,Kelapa Sawit & Hutan Tanaman Industri
+2026,Kalimantan Selatan,19.5,510.0,8.4,27.9,1740,Kawasan Industri Terpadu & Sawit
+2026,Kalimantan Utara,13.8,1820.0,30.0,43.8,1080,Operasional Smelter KIPI & PLTA Kayan

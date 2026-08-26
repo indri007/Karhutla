@@ -1,0 +1,424 @@
+{
+  "type": "FeatureCollection",
+  "name": "Kalimantan_Peatland_Hydrological_Units",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "khg_id": "KHG-KT-01",
+        "name": "KHG Sebangau - Katingan",
+        "province": "Kalimantan Tengah",
+        "peat_depth": "Deep (>3m)",
+        "vulnerability": "Very High",
+        "carbon_stock_mt": 450,
+        "description": "Kubah gambut dalam Sebangau, episentrum kebakaran gambut bawah tanah"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.35,
+              -2.15
+            ],
+            [
+              113.85,
+              -2.1
+            ],
+            [
+              114.1,
+              -2.55
+            ],
+            [
+              113.9,
+              -3.15
+            ],
+            [
+              113.4,
+              -3.2
+            ],
+            [
+              113.15,
+              -2.7
+            ],
+            [
+              113.35,
+              -2.15
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "khg_id": "KHG-KT-02",
+        "name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "province": "Kalimantan Tengah",
+        "peat_depth": "Moderate to Deep (2-5m)",
+        "vulnerability": "Critical",
+        "carbon_stock_mt": 620,
+        "description": "Eks Proyek Lahan Gambut sejuta hektar, kanal drainase kering rentan terbakar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.15,
+              -2.3
+            ],
+            [
+              114.75,
+              -2.35
+            ],
+            [
+              114.85,
+              -3.1
+            ],
+            [
+              114.3,
+              -3.35
+            ],
+            [
+              114.05,
+              -2.85
+            ],
+            [
+              114.15,
+              -2.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "khg_id": "KHG-KT-03",
+        "name": "KHG Mentaya - Katingan (Sampit)",
+        "province": "Kalimantan Tengah",
+        "peat_depth": "Moderate (1.5-3m)",
+        "vulnerability": "High",
+        "carbon_stock_mt": 310,
+        "description": "Kawasan gambut Kotawaringin Timur & Katingan"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              112.6,
+              -2.3
+            ],
+            [
+              113.2,
+              -2.35
+            ],
+            [
+              113.25,
+              -2.95
+            ],
+            [
+              112.75,
+              -3.1
+            ],
+            [
+              112.5,
+              -2.7
+            ],
+            [
+              112.6,
+              -2.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "khg_id": "KHG-KB-01",
+        "name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "province": "Kalimantan Barat",
+        "peat_depth": "Deep (>4m)",
+        "vulnerability": "Very High",
+        "carbon_stock_mt": 520,
+        "description": "Kubah gambut pesisir selatan Kalbar, hotspot langganan awal musim kering"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              109.85,
+              -1.7
+            ],
+            [
+              110.45,
+              -1.75
+            ],
+            [
+              110.6,
+              -2.65
+            ],
+            [
+              110.15,
+              -2.85
+            ],
+            [
+              109.8,
+              -2.35
+            ],
+            [
+              109.85,
+              -1.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "khg_id": "KHG-KB-02",
+        "name": "KHG Kubu Raya - Pontianak",
+        "province": "Kalimantan Barat",
+        "peat_depth": "Moderate (2-3.5m)",
+        "vulnerability": "High",
+        "carbon_stock_mt": 280,
+        "description": "Gambut penyangga sekitar kota Pontianak dan Kubu Raya"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              109.15,
+              -0.4
+            ],
+            [
+              109.65,
+              -0.35
+            ],
+            [
+              109.75,
+              -0.95
+            ],
+            [
+              109.3,
+              -1.05
+            ],
+            [
+              109.1,
+              -0.7
+            ],
+            [
+              109.15,
+              -0.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "khg_id": "KHG-KB-03",
+        "name": "KHG Sambas - Mempawah",
+        "province": "Kalimantan Barat",
+        "peat_depth": "Shallow to Moderate (1-2.5m)",
+        "vulnerability": "Medium to High",
+        "carbon_stock_mt": 190,
+        "description": "Pesisir barat laut Kalimantan Barat"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              108.95,
+              0.95
+            ],
+            [
+              109.45,
+              0.9
+            ],
+            [
+              109.5,
+              0.25
+            ],
+            [
+              109.05,
+              0.2
+            ],
+            [
+              108.9,
+              0.6
+            ],
+            [
+              108.95,
+              0.95
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "khg_id": "KHG-KS-01",
+        "name": "KHG Liang Anggang - Banjar",
+        "province": "Kalimantan Selatan",
+        "peat_depth": "Moderate (1.5-3m)",
+        "vulnerability": "Very High",
+        "carbon_stock_mt": 140,
+        "description": "Gambut sekitar Bandara Syamsudin Noor, asap pekat kerap mengganggu penerbangan"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.65,
+              -3.35
+            ],
+            [
+              114.95,
+              -3.35
+            ],
+            [
+              114.95,
+              -3.7
+            ],
+            [
+              114.65,
+              -3.7
+            ],
+            [
+              114.65,
+              -3.35
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "khg_id": "KHG-KS-02",
+        "name": "KHG Rawa Negara - Hulu Sungai Selatan/Utara",
+        "province": "Kalimantan Selatan",
+        "peat_depth": "Moderate (1.5-2.5m)",
+        "vulnerability": "High",
+        "carbon_stock_mt": 165,
+        "description": "Kawasan rawa lebak dan gambut banua anam"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              115.0,
+              -2.4
+            ],
+            [
+              115.35,
+              -2.4
+            ],
+            [
+              115.4,
+              -2.95
+            ],
+            [
+              115.05,
+              -2.95
+            ],
+            [
+              115.0,
+              -2.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "khg_id": "KHG-KI-01",
+        "name": "KHG Danau Semayang - Melintang (Kutai Kartanegara)",
+        "province": "Kalimantan Timur",
+        "peat_depth": "Moderate (1-3m)",
+        "vulnerability": "Medium",
+        "carbon_stock_mt": 210,
+        "description": "Kawasan danau kaskade dan gambut dataran banjir Sungai Mahakam"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.1,
+              -0.3
+            ],
+            [
+              116.65,
+              -0.3
+            ],
+            [
+              116.7,
+              -0.8
+            ],
+            [
+              116.15,
+              -0.75
+            ],
+            [
+              116.1,
+              -0.3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "khg_id": "KHG-KU-01",
+        "name": "KHG Delta Sesayap - Nunukan",
+        "province": "Kalimantan Utara",
+        "peat_depth": "Moderate (1-2m)",
+        "vulnerability": "Low to Medium",
+        "carbon_stock_mt": 120,
+        "description": "Kawasan delta pasang surut dan gambut pesisir Kalimantan Utara"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              117.15,
+              3.45
+            ],
+            [
+              117.65,
+              3.45
+            ],
+            [
+              117.7,
+              3.9
+            ],
+            [
+              117.2,
+              3.9
+            ],
+            [
+              117.15,
+              3.45
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

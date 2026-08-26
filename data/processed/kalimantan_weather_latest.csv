@@ -1,0 +1,9 @@
+station_id,station_name,province,lat,lon,elevation_m,station_type,timestamp,temperature_c,relative_humidity_pct,wind_speed_kmh,wind_direction_deg,precipitation_mm,soil_moisture_m3_m3,fire_danger_score,fire_danger_category,fire_danger_color,fire_danger_level,status
+STN_KT_PLK,Palangka Raya,Kalimantan Tengah,-2.2136,113.9108,25,Peatland Center / High Risk,2026-08-24T11:45,34.0,48,8.2,144,0.0,0.094,71.1,HIGH (Tinggi - Siaga),#f97316,3,SUCCESS
+STN_KT_SMP,Sampit (Kotawaringin Timur),Kalimantan Tengah,-2.5333,112.95,15,Peatland & Plantation Corridor,2026-08-24T11:45,32.6,57,13.3,170,0.0,0.291,55.0,HIGH (Tinggi - Siaga),#f97316,3,SUCCESS
+STN_KB_KTP,Ketapang (Kendawangan),Kalimantan Barat,-1.8344,109.9714,12,Coastal Peat Dome,2026-08-24T11:45,33.1,52,13.2,173,0.0,0.119,69.2,HIGH (Tinggi - Siaga),#f97316,3,SUCCESS
+STN_KB_PTK,Pontianak / Kubu Raya,Kalimantan Barat,-0.0263,109.3425,8,Urban & Peatland Interface,2026-08-24T11:45,33.3,54,11.8,160,0.0,0.067,67.3,HIGH (Tinggi - Siaga),#f97316,3,SUCCESS
+STN_KS_BJB,Banjarbaru / Liang Anggang,Kalimantan Selatan,-3.4439,114.8319,35,Airport & Peatland Zone,2026-08-24T11:45,33.4,43,12.8,130,0.0,0.257,67.7,HIGH (Tinggi - Siaga),#f97316,3,SUCCESS
+STN_KS_BRT,Barito Kuala (Marabahan),Kalimantan Selatan,-2.9833,114.7667,10,Agricultural Wetland / Peat,2026-08-24T11:45,33.5,46,14.8,153,0.0,0.223,70.6,HIGH (Tinggi - Siaga),#f97316,3,SUCCESS
+STN_KI_SMD,Samarinda / Kutai Kartanegara,Kalimantan Timur,-0.5022,117.1536,20,Mahakam Basin / Mineral & Peat,2026-08-24T11:45,30.3,67,18.2,185,0.2,0.279,45.3,MODERATE (Sedang - Waspada),#f59e0b,2,SUCCESS
+STN_KU_TJS,Tanjung Selor / Bulungan,Kalimantan Utara,2.8375,117.3653,18,Northern Forest Corridor,2026-08-24T11:45,31.6,68,6.0,185,0.0,0.38,34.3,MODERATE (Sedang - Waspada),#f59e0b,2,SUCCESS

@@ -1,0 +1,22 @@
+{
+  "unmitigated_damage_trillion_idr": 449.38,
+  "mitigated_residual_damage_trillion_idr": 52.58,
+  "mitigation_intervention_cost_trillion_idr": 6.8,
+  "total_mitigated_outlay_trillion_idr": 59.38,
+  "net_avoided_losses_trillion_idr": 390.0,
+  "gross_avoided_losses_trillion_idr": 396.8,
+  "benefit_cost_ratio_multiplier": 58.35,
+  "mitigation_costs_breakdown": {
+    "canal_blocking_rewetting_trillion_idr": 2.2,
+    "weather_modification_tmc_trillion_idr": 0.95,
+    "aerial_water_bombing_trillion_idr": 2.15,
+    "ground_patrol_equipment_trillion_idr": 0.9,
+    "law_enforcement_surveillance_trillion_idr": 0.6
+  },
+  "key_takeaways": [
+    "1. Jika TIDAK DITANGANI: Total kerugian diproyeksikan mencapai Rp 449.4 Triliun (~US$ 28.1 Miliar) dengan korban kematian dini ~21.400 jiwa akibat paparan PM2.5 ekstrem.",
+    "2. Jika DITANGANI TERPADU: Dengan investasi intervensi sebesar Rp 6.80 Triliun, sisa kerugian dapat ditekan menjadi Rp 52.6 Triliun.",
+    "3. BENEFIT-COST RATIO TINGGI (58.35x): Setiap Rp 1 Miliar yang dialokasikan untuk pemadaman dan pencegahan gambut berhasil menyelamatkan Rp 58.35 Miliar kerugian ekonomi, kesehatan, dan iklim.",
+    "4. TOTAL KERUGIAN BERSIH YANG DISELAMATKAN: Rp 390.0 Triliun (Net Economic Savings)."
+  ]
+}
