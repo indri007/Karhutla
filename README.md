@@ -9,8 +9,8 @@
 
 **An Integrated Geospatial Intelligence, Environmental Epidemiology, Socio-Economic Causality, and Predictive Disaster Econometrics Platform** for early-onset wildfire monitoring across tropical peatlands (*Karhutla*) in the 5 provinces of Indonesian Borneo (**West, Central, South, East, and North Kalimantan**) and the transboundary ASEAN corridor.
 
-[![Live Streamlit App](https://img.shields.io/badge/Live%20Demo-Streamlit%20Cloud-FF4B4B?style=for-the-badge&logo=streamlit)](https://napas-yang-tergadai-di-ufuk-jelaga.streamlit.app/)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/AmanSegavo/Napas-yang-Tergadai-di-Ufuk-Jelaga-Elegi-Duka-dan-Ratap-Senyap-Bumi-Kalimantan)
+[![Live Streamlit App](https://img.shields.io/badge/Live%20Demo-Streamlit%20Cloud-FF4B4B?style=for-the-badge&logo=streamlit)](https://kahutlaindonesia.streamlit.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/indri007/Karhutla)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg?style=for-the-badge)](https://creativecommons.org/licenses/by/4.0/)
 
 ---
