@@ -1,0 +1,84 @@
+{
+  "concession_overlap": {
+    "total_hotspots_analyzed": 180,
+    "distribution": [
+      {
+        "zone_category": "Zona Penyangga Konsesi (0-5 km Buffer Frontier)",
+        "count": 75,
+        "percentage": 42.0,
+        "risk_driver": "Ekspansi pembukaan lahan baru oleh spekulan/masyarakat di batas konsesi perkebunan",
+        "dominant_land": "Lahan Gambut Kering"
+      },
+      {
+        "zone_category": "Di Dalam Konsesi Korporasi (HGU Sawit, IUPHTI, IUP Tambang)",
+        "count": 62,
+        "percentage": 34.5,
+        "risk_driver": "Kanalisasi drainase gambut & kebakaran tidak terkendali pembersihan lahan",
+        "dominant_land": "Lahan Gambut & Konversi Hutan"
+      },
+      {
+        "zone_category": "Lahan Terbuka Bebas Akses (Open Access / Non-Status)",
+        "count": 33,
+        "percentage": 18.5,
+        "risk_driver": "Sengketa kepemilikan tanah & perambahan liar",
+        "dominant_land": "Semak Belukar Gambut"
+      },
+      {
+        "zone_category": "Kawasan Hutan Lindung & Konservasi (Taman Nasional)",
+        "count": 10,
+        "percentage": 5.0,
+        "risk_driver": "Perburuan satwa liar, pembalakan liar, perambahan pinggiran",
+        "dominant_land": "Hutan Rawa Gambut Primer"
+      }
+    ]
+  },
+  "provincial_correlation": {
+    "provincial_synthesis": [
+      {
+        "province": "Kalimantan Timur",
+        "total_investment_trillion_idr": 111.3,
+        "pmdn_trillion_idr": 72.5,
+        "pma_million_usd": 2350.0,
+        "hotspots": 8,
+        "primary_driver": "Pusat Bisnis IKN & Infrastruktur Energi"
+      },
+      {
+        "province": "Kalimantan Barat",
+        "total_investment_trillion_idr": 40.1,
+        "pmdn_trillion_idr": 25.4,
+        "pma_million_usd": 890.0,
+        "hotspots": 40,
+        "primary_driver": "Agroindustri Sawit & Ekspor Bauksit"
+      },
+      {
+        "province": "Kalimantan Tengah",
+        "total_investment_trillion_idr": 33.9,
+        "pmdn_trillion_idr": 21.0,
+        "pma_million_usd": 780.0,
+        "hotspots": 118,
+        "primary_driver": "Kelapa Sawit & Hutan Tanaman Industri"
+      },
+      {
+        "province": "Kalimantan Selatan",
+        "total_investment_trillion_idr": 27.9,
+        "pmdn_trillion_idr": 19.5,
+        "pma_million_usd": 510.0,
+        "hotspots": 12,
+        "primary_driver": "Kawasan Industri Terpadu & Sawit"
+      },
+      {
+        "province": "Kalimantan Utara",
+        "total_investment_trillion_idr": 43.8,
+        "pmdn_trillion_idr": 13.8,
+        "pma_million_usd": 1820.0,
+        "hotspots": 2,
+        "primary_driver": "Operasional Smelter KIPI & PLTA Kayan"
+      }
+    ],
+    "key_statistical_insights": [
+      "1. Kalimantan Tengah dan Kalimantan Barat menyumbang >87% total titik panas, didorong oleh konsentrasi investasi perkebunan kelapa sawit di atas kubah gambut dalam.",
+      "2. 76.5% titik api terjadi di dalam atau di batas terluar (frontier buffer) konsesi perkebunan dan kehutanan, membuktikan korelasi kuat antara aktivitas pembukaan lahan ekonomi dan kejadian karhutla.",
+      "3. Nilai penghematan ekonomis metode tebas-bakar (Rp 500rb - 1.5jt/ha vs Rp 6-12jt/ha mekanis) menciptakan dorongan ekonomi sebesar Rp 5.5 - 10.5 juta per hektar untuk melakukan pembakaran secara ilegal."
+    ]
+  }
+}

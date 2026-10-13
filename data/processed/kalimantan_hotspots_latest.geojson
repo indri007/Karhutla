@@ -1,0 +1,4686 @@
+{
+  "type": "FeatureCollection",
+  "name": "Kalimantan_Active_Fire_Hotspots",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33046,
+          -2.3994
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260824-0112",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 19.1,
+        "brightness_k": 327.24,
+        "confidence_pct": 54.0,
+        "acq_datetime": "2026-08-24T04:29:23.099494+00:00",
+        "satellite": "Aqua",
+        "instrument": "MODIS",
+        "daynight": "N",
+        "hazard_score": 49.8,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.28608,
+          -1.87287
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260824-0095",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "frp_mw": 16.7,
+        "brightness_k": 353.49,
+        "confidence_pct": 40.0,
+        "acq_datetime": "2026-08-24T03:53:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 57.5,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.82586,
+          -2.29384
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260824-0144",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 33.2,
+        "brightness_k": 328.87,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-24T03:51:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 66.9,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.25156,
+          -2.51209
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260824-0072",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 10.6,
+        "brightness_k": 362.2,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-24T03:05:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 68.9,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.07063,
+          -2.36631
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260824-0137",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Mentaya - Katingan (Sampit)",
+        "frp_mw": 10.5,
+        "brightness_k": 330.24,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-24T03:01:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 50.3,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.79539,
+          -2.55256
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260824-0164",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Mentaya - Katingan (Sampit)",
+        "frp_mw": 4.2,
+        "brightness_k": 339.72,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-24T02:54:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 55.0,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.40793,
+          -2.57395
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260824-0125",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 43.8,
+        "brightness_k": 353.2,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-24T02:46:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 80.2,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.25093,
+          -2.49797
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260824-0014",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 54.1,
+        "brightness_k": 335.65,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-24T02:45:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 78.2,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.239,
+          -2.71363
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260824-0038",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 9.4,
+        "brightness_k": 321.29,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-24T02:40:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 45.6,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.38343,
+          -2.52637
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260824-0110",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 6.1,
+        "brightness_k": 339.08,
+        "confidence_pct": 40.0,
+        "acq_datetime": "2026-08-24T02:32:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 44.8,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.87513,
+          -2.37563
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260824-0145",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 23.3,
+        "brightness_k": 329.12,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-24T02:09:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 61.3,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.46903,
+          -2.46991
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260824-0109",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 31.2,
+        "brightness_k": 348.66,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-24T01:45:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 74.8,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.99999,
+          -1.91483
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260824-0003",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "frp_mw": 34.0,
+        "brightness_k": 351.09,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-24T01:15:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 73.5,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.80568,
+          -2.24414
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260824-0123",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 8.5,
+        "brightness_k": 352.29,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-24T00:11:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 59.2,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.62802,
+          -0.33772
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0063",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kubu Raya - Pontianak (Buffer Zone)",
+        "frp_mw": 9.9,
+        "brightness_k": 339.68,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-23T23:34:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 54.3,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.38649,
+          -2.59072
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0106",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 8.6,
+        "brightness_k": 342.39,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-23T22:50:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 58.7,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.6818,
+          -3.55808
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0044",
+        "province": "Kalimantan Selatan",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Liang Anggang - Banjar",
+        "frp_mw": 19.7,
+        "brightness_k": 310.0,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-23T22:37:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 46.5,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.27898,
+          -1.94655
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0088",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "frp_mw": 11.9,
+        "brightness_k": 338.8,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-23T22:11:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 55.0,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.92567,
+          -2.44532
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0028",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Mentaya - Katingan (Sampit)",
+        "frp_mw": 25.3,
+        "brightness_k": 337.17,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-23T21:51:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 62.1,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.97475,
+          -1.79931
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0077",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "frp_mw": 26.8,
+        "brightness_k": 330.69,
+        "confidence_pct": 80.0,
+        "acq_datetime": "2026-08-23T21:16:23.099494+00:00",
+        "satellite": "Terra",
+        "instrument": "MODIS",
+        "daynight": "N",
+        "hazard_score": 61.0,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.21934,
+          -0.45328
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0141",
+        "province": "Kalimantan Timur",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Danau Semayang - Melintang (Kutai Kartanegara)",
+        "frp_mw": 7.6,
+        "brightness_k": 310.87,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-23T21:04:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 43.8,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.66842,
+          -2.20601
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0037",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 8.4,
+        "brightness_k": 363.16,
+        "confidence_pct": 40.0,
+        "acq_datetime": "2026-08-23T20:55:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 57.1,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.93889,
+          -2.33017
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0134",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 33.7,
+        "brightness_k": 326.06,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-23T19:37:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 66.0,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.44425,
+          -2.49523
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0152",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 5.0,
+        "brightness_k": 348.44,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-23T18:47:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 55.4,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.72344,
+          -2.31884
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0061",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 1.5,
+        "brightness_k": 355.16,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-23T18:14:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 56.4,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.77761,
+          -2.14708
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0025",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 10.6,
+        "brightness_k": 330.31,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-23T17:47:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 50.4,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.43797,
+          -2.57511
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0022",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 49.6,
+        "brightness_k": 313.42,
+        "confidence_pct": 40.0,
+        "acq_datetime": "2026-08-23T17:44:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 58.5,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.15213,
+          -2.63117
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0096",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan (Buffer Zone)",
+        "frp_mw": 17.8,
+        "brightness_k": 319.4,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-23T17:44:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 49.7,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.11861,
+          -2.39379
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0143",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Mentaya - Katingan (Sampit)",
+        "frp_mw": 47.6,
+        "brightness_k": 339.56,
+        "confidence_pct": 40.0,
+        "acq_datetime": "2026-08-23T17:39:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 69.2,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.88861,
+          -2.31627
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0083",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 12.7,
+        "brightness_k": 328.42,
+        "confidence_pct": 40.0,
+        "acq_datetime": "2026-08-23T16:13:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 43.8,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.35176,
+          -2.62311
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0027",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 15.6,
+        "brightness_k": 365.81,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-23T15:50:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 69.1,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.51429,
+          -2.57045
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0150",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 10.2,
+        "brightness_k": 337.37,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-23T15:49:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 53.4,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.0984,
+          2.96212
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0070",
+        "province": "Kalimantan Utara",
+        "land_type": "Tanah Mineral",
+        "peatland_name": "Lahan Non-Gambut / Tanah Mineral",
+        "frp_mw": 5.6,
+        "brightness_k": 320.21,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-23T15:33:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 27.9,
+        "hazard_severity": "Low",
+        "hazard_color": "#3b82f6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.89222,
+          -2.47148
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0055",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Mentaya - Katingan (Sampit)",
+        "frp_mw": 11.5,
+        "brightness_k": 336.07,
+        "confidence_pct": 78.0,
+        "acq_datetime": "2026-08-23T15:18:23.099494+00:00",
+        "satellite": "Aqua",
+        "instrument": "MODIS",
+        "daynight": "D",
+        "hazard_score": 54.2,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.12908,
+          -1.89845
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0075",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "frp_mw": 9.2,
+        "brightness_k": 343.86,
+        "confidence_pct": 73.0,
+        "acq_datetime": "2026-08-23T14:53:23.099494+00:00",
+        "satellite": "Aqua",
+        "instrument": "MODIS",
+        "daynight": "D",
+        "hazard_score": 55.4,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.41469,
+          -2.76778
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0016",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 12.3,
+        "brightness_k": 346.27,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-23T14:46:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 58.7,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.8168,
+          -2.24544
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0103",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 10.0,
+        "brightness_k": 351.59,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-23T13:43:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 59.7,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.61618,
+          -0.31734
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0114",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kubu Raya - Pontianak (Buffer Zone)",
+        "frp_mw": 14.2,
+        "brightness_k": 329.24,
+        "confidence_pct": 52.0,
+        "acq_datetime": "2026-08-23T13:24:23.099494+00:00",
+        "satellite": "Aqua",
+        "instrument": "MODIS",
+        "daynight": "D",
+        "hazard_score": 47.4,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.45575,
+          -2.71921
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0045",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 43.7,
+        "brightness_k": 363.02,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-23T12:53:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 84.6,
+        "hazard_severity": "Critical / Peat Smoldering",
+        "hazard_color": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.01894,
+          -2.62072
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0018",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Mentaya - Katingan (Sampit)",
+        "frp_mw": 18.1,
+        "brightness_k": 342.84,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-23T12:10:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 60.5,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.93562,
+          -2.40987
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0049",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Mentaya - Katingan (Sampit)",
+        "frp_mw": 8.4,
+        "brightness_k": 334.68,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-23T10:36:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 51.1,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.79217,
+          -2.12376
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0092",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang) (Buffer Zone)",
+        "frp_mw": 33.6,
+        "brightness_k": 351.96,
+        "confidence_pct": 57.0,
+        "acq_datetime": "2026-08-23T10:07:23.099494+00:00",
+        "satellite": "Aqua",
+        "instrument": "MODIS",
+        "daynight": "D",
+        "hazard_score": 70.1,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.30056,
+          -2.62667
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0176",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 14.9,
+        "brightness_k": 360.19,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-23T08:59:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 70.5,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.91389,
+          -2.15095
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0020",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan (Buffer Zone)",
+        "frp_mw": 24.7,
+        "brightness_k": 332.22,
+        "confidence_pct": 40.0,
+        "acq_datetime": "2026-08-23T08:18:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 52.5,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.19082,
+          -1.78414
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0087",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "frp_mw": 5.4,
+        "brightness_k": 334.06,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-23T07:56:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 53.1,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.12745,
+          -2.53528
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0170",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Mentaya - Katingan (Sampit)",
+        "frp_mw": 17.0,
+        "brightness_k": 334.17,
+        "confidence_pct": 88.0,
+        "acq_datetime": "2026-08-23T07:56:23.099494+00:00",
+        "satellite": "Aqua",
+        "instrument": "MODIS",
+        "daynight": "D",
+        "hazard_score": 58.5,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.16363,
+          -2.74432
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0132",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 2.8,
+        "brightness_k": 328.32,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-23T07:15:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 45.0,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.94101,
+          -2.77866
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0168",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 60.9,
+        "brightness_k": 333.12,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-23T06:57:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 80.5,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.64509,
+          -2.28227
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0060",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 12.5,
+        "brightness_k": 330.37,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-23T06:18:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 55.6,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.94325,
+          -2.00866
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0160",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "frp_mw": 21.2,
+        "brightness_k": 332.17,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-23T04:46:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 61.4,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.67798,
+          -0.38172
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0127",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kubu Raya - Pontianak (Buffer Zone)",
+        "frp_mw": 6.0,
+        "brightness_k": 325.29,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-23T03:42:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 45.5,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.58171,
+          -0.56876
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0121",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kubu Raya - Pontianak",
+        "frp_mw": 17.6,
+        "brightness_k": 326.87,
+        "confidence_pct": 40.0,
+        "acq_datetime": "2026-08-23T02:37:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 45.9,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.80664,
+          -2.32822
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0047",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 21.0,
+        "brightness_k": 331.28,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-23T01:44:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 56.9,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.62145,
+          -2.63483
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260823-0180",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 3.6,
+        "brightness_k": 350.84,
+        "confidence_pct": 88.0,
+        "acq_datetime": "2026-08-23T00:46:23.099494+00:00",
+        "satellite": "Terra",
+        "instrument": "MODIS",
+        "daynight": "N",
+        "hazard_score": 58.3,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.07149,
+          -1.96202
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0163",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "frp_mw": 5.0,
+        "brightness_k": 328.42,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-22T22:54:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 50.3,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.45946,
+          -0.41881
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0002",
+        "province": "Kalimantan Timur",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Danau Semayang - Melintang (Kutai Kartanegara)",
+        "frp_mw": 31.0,
+        "brightness_k": 345.91,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-22T20:05:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 73.4,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.07289,
+          -2.087
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0158",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "frp_mw": 3.5,
+        "brightness_k": 344.26,
+        "confidence_pct": 96.0,
+        "acq_datetime": "2026-08-22T19:42:23.099494+00:00",
+        "satellite": "Aqua",
+        "instrument": "MODIS",
+        "daynight": "N",
+        "hazard_score": 56.8,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.76853,
+          -2.41403
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0139",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 21.1,
+        "brightness_k": 349.04,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-22T18:59:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 65.1,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.33143,
+          -0.25866
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0117",
+        "province": "Kalimantan Barat",
+        "land_type": "Tanah Mineral",
+        "peatland_name": "Lahan Non-Gambut / Tanah Mineral",
+        "frp_mw": 6.6,
+        "brightness_k": 322.98,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-22T18:33:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 29.8,
+        "hazard_severity": "Low",
+        "hazard_color": "#3b82f6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.10378,
+          -0.32299
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0035",
+        "province": "Kalimantan Timur",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Danau Semayang - Melintang (Kutai Kartanegara)",
+        "frp_mw": 1.7,
+        "brightness_k": 340.9,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-22T17:54:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 50.0,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.7887,
+          -2.16208
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0111",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 16.2,
+        "brightness_k": 340.17,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-22T17:45:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 58.2,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.31303,
+          -0.4265
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0068",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kubu Raya - Pontianak",
+        "frp_mw": 17.3,
+        "brightness_k": 332.87,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-22T16:09:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 59.5,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.31933,
+          -0.41077
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0051",
+        "province": "Kalimantan Timur",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Danau Semayang - Melintang (Kutai Kartanegara)",
+        "frp_mw": 14.1,
+        "brightness_k": 327.88,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-22T15:54:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 51.4,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.4012,
+          -2.1574
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0107",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 10.2,
+        "brightness_k": 342.99,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-22T15:38:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 55.9,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.48616,
+          -2.57411
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0073",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 9.1,
+        "brightness_k": 322.67,
+        "confidence_pct": 86.0,
+        "acq_datetime": "2026-08-22T15:26:23.099494+00:00",
+        "satellite": "Terra",
+        "instrument": "MODIS",
+        "daynight": "D",
+        "hazard_score": 48.3,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.87371,
+          -3.50072
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0105",
+        "province": "Kalimantan Selatan",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Liang Anggang - Banjar",
+        "frp_mw": 3.8,
+        "brightness_k": 344.89,
+        "confidence_pct": 40.0,
+        "acq_datetime": "2026-08-22T14:54:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 46.1,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.08612,
+          -1.87198
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0093",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "frp_mw": 9.2,
+        "brightness_k": 349.27,
+        "confidence_pct": 40.0,
+        "acq_datetime": "2026-08-22T14:24:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 51.2,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.17531,
+          -2.68031
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0015",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 7.4,
+        "brightness_k": 336.96,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-22T14:10:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 55.6,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.38279,
+          -2.65416
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0080",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 5.5,
+        "brightness_k": 336.51,
+        "confidence_pct": 73.0,
+        "acq_datetime": "2026-08-22T13:35:23.099494+00:00",
+        "satellite": "Aqua",
+        "instrument": "MODIS",
+        "daynight": "D",
+        "hazard_score": 49.9,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.82717,
+          -2.30357
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0090",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 25.0,
+        "brightness_k": 316.78,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-22T12:44:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 56.7,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.00347,
+          -2.30346
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0079",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan (Buffer Zone)",
+        "frp_mw": 5.6,
+        "brightness_k": 334.9,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-22T12:33:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 49.6,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.30436,
+          -2.54547
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0050",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 1.7,
+        "brightness_k": 330.38,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-22T10:22:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 45.3,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14864,
+          -2.63641
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0172",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 17.4,
+        "brightness_k": 352.76,
+        "confidence_pct": 76.0,
+        "acq_datetime": "2026-08-22T10:13:23.099494+00:00",
+        "satellite": "Terra",
+        "instrument": "MODIS",
+        "daynight": "D",
+        "hazard_score": 64.8,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.10417,
+          -1.9466
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0076",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "frp_mw": 16.9,
+        "brightness_k": 321.64,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-22T09:45:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 50.1,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.66534,
+          -2.73258
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0118",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 10.8,
+        "brightness_k": 333.05,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-22T09:17:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 51.8,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.62484,
+          -2.21086
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0065",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 5.5,
+        "brightness_k": 323.6,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-22T07:59:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 44.4,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.78843,
+          -2.8466
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0048",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Mentaya - Katingan (Sampit)",
+        "frp_mw": 11.9,
+        "brightness_k": 340.54,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-22T06:58:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 59.8,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.02283,
+          -1.8566
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0157",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "frp_mw": 6.3,
+        "brightness_k": 351.89,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-22T03:44:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 57.7,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.40866,
+          -2.44929
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0129",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 18.8,
+        "brightness_k": 326.61,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-22T03:14:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 53.5,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.96081,
+          -2.22593
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0167",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan (Buffer Zone)",
+        "frp_mw": 12.5,
+        "brightness_k": 334.95,
+        "confidence_pct": 40.0,
+        "acq_datetime": "2026-08-22T01:57:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 46.6,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.40485,
+          -0.51555
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260822-0140",
+        "province": "Kalimantan Timur",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Danau Semayang - Melintang (Kutai Kartanegara)",
+        "frp_mw": 10.7,
+        "brightness_k": 326.57,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-22T00:47:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 52.8,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.84732,
+          -2.04159
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260821-0046",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "frp_mw": 21.7,
+        "brightness_k": 320.21,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-21T23:41:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 52.3,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21622,
+          -2.66535
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260821-0041",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 10.6,
+        "brightness_k": 336.26,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-21T23:32:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 53.1,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.86071,
+          -2.64048
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260821-0120",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Mentaya - Katingan (Sampit)",
+        "frp_mw": 6.5,
+        "brightness_k": 350.15,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-21T23:31:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 57.0,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.31182,
+          -2.67949
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260821-0059",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 2.3,
+        "brightness_k": 351.47,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-21T18:54:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 55.2,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.14567,
+          -2.70365
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260821-0066",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan (Buffer Zone)",
+        "frp_mw": 10.7,
+        "brightness_k": 350.16,
+        "confidence_pct": 40.0,
+        "acq_datetime": "2026-08-21T18:30:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 52.5,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.0891,
+          -1.84403
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260821-0171",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "frp_mw": 16.9,
+        "brightness_k": 350.96,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-21T17:41:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 67.5,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.11146,
+          -2.00824
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260821-0010",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "frp_mw": 11.8,
+        "brightness_k": 333.53,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-21T16:31:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 52.6,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.4093,
+          -2.76461
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260821-0174",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 13.5,
+        "brightness_k": 340.8,
+        "confidence_pct": 70.0,
+        "acq_datetime": "2026-08-21T14:43:23.099494+00:00",
+        "satellite": "Aqua",
+        "instrument": "MODIS",
+        "daynight": "D",
+        "hazard_score": 55.9,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.81984,
+          -2.10443
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260821-0131",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 15.0,
+        "brightness_k": 332.17,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-21T14:42:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 57.8,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.37766,
+          -2.49191
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260821-0101",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 13.1,
+        "brightness_k": 334.07,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-21T14:16:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 53.6,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.62471,
+          -2.67538
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260821-0148",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Mentaya - Katingan (Sampit)",
+        "frp_mw": 8.3,
+        "brightness_k": 332.69,
+        "confidence_pct": 82.0,
+        "acq_datetime": "2026-08-21T13:52:23.099494+00:00",
+        "satellite": "Terra",
+        "instrument": "MODIS",
+        "daynight": "D",
+        "hazard_score": 51.6,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.31065,
+          -2.77019
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260821-0099",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 7.6,
+        "brightness_k": 332.58,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-21T13:00:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 53.7,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.4324,
+          -2.71966
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260821-0153",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 4.3,
+        "brightness_k": 332.32,
+        "confidence_pct": 40.0,
+        "acq_datetime": "2026-08-21T12:11:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 40.7,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.34812,
+          -1.9533
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260821-0162",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "frp_mw": 4.3,
+        "brightness_k": 342.76,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-21T12:02:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 52.4,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.67086,
+          -2.29701
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260821-0178",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 31.7,
+        "brightness_k": 320.28,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-21T11:09:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 62.2,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.0149,
+          -2.20462
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260821-0177",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "frp_mw": 5.4,
+        "brightness_k": 345.05,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-21T09:28:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 54.1,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11832,
+          -2.77145
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260821-0058",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 5.5,
+        "brightness_k": 353.74,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-21T07:27:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 58.1,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.44222,
+          -0.65441
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260821-0036",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kubu Raya - Pontianak",
+        "frp_mw": 3.2,
+        "brightness_k": 351.97,
+        "confidence_pct": 40.0,
+        "acq_datetime": "2026-08-21T06:18:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 48.9,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.26008,
+          -0.41477
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260821-0166",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kubu Raya - Pontianak",
+        "frp_mw": 8.4,
+        "brightness_k": 328.8,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-21T06:12:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 48.4,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.70815,
+          -2.71622
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260821-0156",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 54.8,
+        "brightness_k": 360.84,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-21T03:13:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 94.1,
+        "hazard_severity": "Critical / Peat Smoldering",
+        "hazard_color": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.82639,
+          -2.80487
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260821-0029",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Mentaya - Katingan (Sampit)",
+        "frp_mw": 15.0,
+        "brightness_k": 315.55,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-21T02:50:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 46.3,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.72108,
+          -2.20045
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260821-0023",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 13.1,
+        "brightness_k": 333.3,
+        "confidence_pct": 40.0,
+        "acq_datetime": "2026-08-21T02:43:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 46.2,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11058,
+          -2.61306
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260820-0067",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan (Buffer Zone)",
+        "frp_mw": 12.0,
+        "brightness_k": 323.04,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-20T23:39:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 51.9,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.56066,
+          -2.60428
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260820-0097",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Mentaya - Katingan (Sampit)",
+        "frp_mw": 16.6,
+        "brightness_k": 342.97,
+        "confidence_pct": 40.0,
+        "acq_datetime": "2026-08-20T22:06:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 52.7,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.5067,
+          -0.23815
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260820-0013",
+        "province": "Kalimantan Barat",
+        "land_type": "Tanah Mineral",
+        "peatland_name": "Lahan Non-Gambut / Tanah Mineral",
+        "frp_mw": 44.9,
+        "brightness_k": 343.03,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-20T21:51:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 61.2,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.79541,
+          -3.58844
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260820-0179",
+        "province": "Kalimantan Selatan",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Liang Anggang - Banjar",
+        "frp_mw": 17.2,
+        "brightness_k": 333.68,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-20T21:07:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 55.8,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.19255,
+          -2.56461
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260820-0033",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 62.8,
+        "brightness_k": 341.41,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-20T20:41:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 88.3,
+        "hazard_severity": "Critical / Peat Smoldering",
+        "hazard_color": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.24405,
+          -2.53047
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260820-0146",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 5.0,
+        "brightness_k": 341.87,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-20T20:35:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 52.4,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.47773,
+          -2.28301
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260820-0040",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 4.8,
+        "brightness_k": 348.72,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-20T20:20:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 55.4,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.39682,
+          -2.6157
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260820-0084",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 3.8,
+        "brightness_k": 317.52,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-20T16:42:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 40.6,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.04186,
+          -1.90938
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260820-0052",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "frp_mw": 15.5,
+        "brightness_k": 332.65,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-20T15:55:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 58.3,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.15641,
+          -2.75507
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260820-0043",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 12.3,
+        "brightness_k": 338.83,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-20T15:26:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 55.3,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.48758,
+          -2.61928
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260820-0069",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 21.9,
+        "brightness_k": 336.6,
+        "confidence_pct": 40.0,
+        "acq_datetime": "2026-08-20T13:37:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 52.9,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.63783,
+          -2.25043
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260820-0098",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 11.4,
+        "brightness_k": 327.98,
+        "confidence_pct": 40.0,
+        "acq_datetime": "2026-08-20T12:14:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 42.8,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.46449,
+          -0.453
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260820-0135",
+        "province": "Kalimantan Timur",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Danau Semayang - Melintang (Kutai Kartanegara)",
+        "frp_mw": 11.6,
+        "brightness_k": 310.0,
+        "confidence_pct": 40.0,
+        "acq_datetime": "2026-08-20T11:37:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 34.8,
+        "hazard_severity": "Low",
+        "hazard_color": "#3b82f6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.09157,
+          -3.35729
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260820-0119",
+        "province": "Kalimantan Selatan",
+        "land_type": "Tanah Mineral",
+        "peatland_name": "Lahan Non-Gambut / Tanah Mineral",
+        "frp_mw": 15.4,
+        "brightness_k": 335.47,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-20T11:00:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 44.6,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.60957,
+          -2.7729
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260820-0159",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 8.5,
+        "brightness_k": 352.27,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-20T10:41:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 59.2,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.07305,
+          -2.63826
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260820-0130",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Mentaya - Katingan (Sampit)",
+        "frp_mw": 3.3,
+        "brightness_k": 332.09,
+        "confidence_pct": 96.0,
+        "acq_datetime": "2026-08-20T09:53:23.099494+00:00",
+        "satellite": "Aqua",
+        "instrument": "MODIS",
+        "daynight": "D",
+        "hazard_score": 51.2,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7851,
+          -2.41097
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260820-0004",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Mentaya - Katingan (Sampit)",
+        "frp_mw": 12.5,
+        "brightness_k": 328.09,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-20T09:09:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 50.5,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46853,
+          -2.06393
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260820-0071",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "frp_mw": 3.0,
+        "brightness_k": 345.79,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-20T07:04:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 53.0,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.40281,
+          -2.71707
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260820-0091",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 2.0,
+        "brightness_k": 336.93,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-20T04:46:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 48.4,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.05765,
+          -2.02361
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260820-0138",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "frp_mw": 23.9,
+        "brightness_k": 320.09,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-20T03:17:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 53.5,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.78134,
+          -3.42228
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260820-0056",
+        "province": "Kalimantan Selatan",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Liang Anggang - Banjar",
+        "frp_mw": 54.8,
+        "brightness_k": 322.4,
+        "confidence_pct": 96.0,
+        "acq_datetime": "2026-08-20T01:13:23.099494+00:00",
+        "satellite": "Aqua",
+        "instrument": "MODIS",
+        "daynight": "N",
+        "hazard_score": 76.8,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.49559,
+          -2.73029
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260819-0142",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 24.1,
+        "brightness_k": 337.44,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-19T18:32:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 65.5,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.93979,
+          -3.37565
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260819-0054",
+        "province": "Kalimantan Selatan",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Liang Anggang - Banjar",
+        "frp_mw": 7.1,
+        "brightness_k": 325.8,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-19T16:33:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 46.3,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.75298,
+          -3.33141
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260819-0151",
+        "province": "Kalimantan Selatan",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Liang Anggang - Banjar (Buffer Zone)",
+        "frp_mw": 11.8,
+        "brightness_k": 315.71,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-19T16:13:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 48.5,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.60131,
+          -0.38283
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260819-0074",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kubu Raya - Pontianak",
+        "frp_mw": 10.5,
+        "brightness_k": 320.18,
+        "confidence_pct": 51.0,
+        "acq_datetime": "2026-08-19T09:33:23.099494+00:00",
+        "satellite": "Aqua",
+        "instrument": "MODIS",
+        "daynight": "D",
+        "hazard_score": 41.0,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.74753,
+          -2.27884
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260819-0064",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 4.7,
+        "brightness_k": 358.26,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-19T08:59:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 63.7,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.25943,
+          -2.64284
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260819-0100",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 27.8,
+        "brightness_k": 331.55,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-19T08:05:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 65.0,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.19912,
+          -2.64229
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260819-0011",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 52.8,
+        "brightness_k": 367.17,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-19T00:11:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 94.8,
+        "hazard_severity": "Critical / Peat Smoldering",
+        "hazard_color": "#dc2626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3761,
+          -0.69302
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260818-0012",
+        "province": "Kalimantan Timur",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Danau Semayang - Melintang (Kutai Kartanegara)",
+        "frp_mw": 45.2,
+        "brightness_k": 329.24,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-18T22:22:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 70.1,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.78151,
+          -2.49183
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260818-0173",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Mentaya - Katingan (Sampit)",
+        "frp_mw": 16.6,
+        "brightness_k": 335.31,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-18T20:57:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 56.2,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.82223,
+          -2.62478
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260818-0082",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Mentaya - Katingan (Sampit)",
+        "frp_mw": 4.1,
+        "brightness_k": 334.02,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-18T20:44:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 48.3,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.24808,
+          -2.6475
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260818-0169",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 18.4,
+        "brightness_k": 330.96,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-18T18:44:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 55.3,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.84816,
+          -3.40831
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260818-0116",
+        "province": "Kalimantan Selatan",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Liang Anggang - Banjar",
+        "frp_mw": 4.6,
+        "brightness_k": 339.95,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-18T17:59:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 51.3,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.02343,
+          -2.34754
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260818-0042",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Mentaya - Katingan (Sampit)",
+        "frp_mw": 26.1,
+        "brightness_k": 366.99,
+        "confidence_pct": 40.0,
+        "acq_datetime": "2026-08-18T17:42:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 68.2,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.78068,
+          -3.51693
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260818-0089",
+        "province": "Kalimantan Selatan",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Liang Anggang - Banjar",
+        "frp_mw": 3.2,
+        "brightness_k": 353.01,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-18T15:51:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 60.4,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.43938,
+          -2.48819
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260818-0009",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 12.8,
+        "brightness_k": 341.29,
+        "confidence_pct": 40.0,
+        "acq_datetime": "2026-08-18T14:06:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 49.7,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.7497,
+          -2.17993
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260818-0086",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 20.2,
+        "brightness_k": 343.37,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-18T12:57:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 62.0,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.68313,
+          -3.47141
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260818-0053",
+        "province": "Kalimantan Selatan",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Liang Anggang - Banjar",
+        "frp_mw": 7.6,
+        "brightness_k": 353.94,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-18T08:27:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 63.4,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.35658,
+          -2.64937
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260818-0032",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 2.8,
+        "brightness_k": 334.74,
+        "confidence_pct": 80.0,
+        "acq_datetime": "2026-08-18T06:57:23.099494+00:00",
+        "satellite": "Aqua",
+        "instrument": "MODIS",
+        "daynight": "D",
+        "hazard_score": 48.9,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.60296,
+          -2.42377
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260818-0024",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 35.0,
+        "brightness_k": 330.53,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-18T06:49:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 64.7,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13792,
+          -2.75162
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260817-0007",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 11.9,
+        "brightness_k": 347.02,
+        "confidence_pct": 40.0,
+        "acq_datetime": "2026-08-17T21:37:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 51.8,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.47529,
+          -2.73621
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260817-0124",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 5.7,
+        "brightness_k": 341.37,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-17T19:08:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 52.6,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.10213,
+          -2.70018
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260817-0094",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan (Buffer Zone)",
+        "frp_mw": 9.1,
+        "brightness_k": 341.74,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-17T17:50:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 58.7,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.83133,
+          -2.31211
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260817-0085",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 14.8,
+        "brightness_k": 352.97,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-17T17:19:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 63.2,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.26837,
+          -2.54674
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260817-0149",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 5.5,
+        "brightness_k": 348.55,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-17T08:53:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 59.7,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.298,
+          -2.69112
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260817-0062",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 3.6,
+        "brightness_k": 348.5,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-17T07:25:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 54.6,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.01796,
+          -3.55485
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260817-0113",
+        "province": "Kalimantan Selatan",
+        "land_type": "Tanah Mineral",
+        "peatland_name": "Lahan Non-Gambut / Tanah Mineral",
+        "frp_mw": 60.5,
+        "brightness_k": 338.13,
+        "confidence_pct": 78.0,
+        "acq_datetime": "2026-08-17T00:07:23.099494+00:00",
+        "satellite": "Terra",
+        "instrument": "MODIS",
+        "daynight": "N",
+        "hazard_score": 68.4,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.59575,
+          -0.20271
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260816-0034",
+        "province": "Kalimantan Timur",
+        "land_type": "Tanah Mineral",
+        "peatland_name": "Lahan Non-Gambut / Tanah Mineral",
+        "frp_mw": 23.2,
+        "brightness_k": 356.37,
+        "confidence_pct": 40.0,
+        "acq_datetime": "2026-08-16T19:40:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 47.6,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.15996,
+          -2.07749
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260816-0175",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "frp_mw": 8.8,
+        "brightness_k": 338.89,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-16T19:38:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 57.3,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.14405,
+          3.10724
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260816-0155",
+        "province": "Kalimantan Utara",
+        "land_type": "Tanah Mineral",
+        "peatland_name": "Lahan Non-Gambut / Tanah Mineral",
+        "frp_mw": 5.8,
+        "brightness_k": 358.67,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-16T15:24:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 45.5,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.23217,
+          -0.42195
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260816-0128",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kubu Raya - Pontianak",
+        "frp_mw": 3.9,
+        "brightness_k": 324.43,
+        "confidence_pct": 83.0,
+        "acq_datetime": "2026-08-16T14:16:23.099494+00:00",
+        "satellite": "Aqua",
+        "instrument": "MODIS",
+        "daynight": "D",
+        "hazard_score": 45.4,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.39776,
+          -2.65925
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260816-0005",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 11.9,
+        "brightness_k": 371.31,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-16T14:01:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 70.9,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.14603,
+          -1.9577
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260816-0115",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "frp_mw": 14.9,
+        "brightness_k": 345.27,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-16T11:14:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 59.7,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.28998,
+          -0.44301
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260816-0008",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kubu Raya - Pontianak",
+        "frp_mw": 35.7,
+        "brightness_k": 326.99,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-16T11:06:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 67.5,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.57674,
+          -2.30592
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260816-0161",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 35.9,
+        "brightness_k": 336.19,
+        "confidence_pct": 40.0,
+        "acq_datetime": "2026-08-16T09:37:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 60.8,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.12996,
+          -2.03397
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260816-0039",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "frp_mw": 6.5,
+        "brightness_k": 348.72,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-16T07:44:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 56.4,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.42223,
+          -2.64196
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260815-0165",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 5.0,
+        "brightness_k": 349.12,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-15T03:23:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 55.7,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.52671,
+          -1.99404
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260814-0017",
+        "province": "Kalimantan Tengah",
+        "land_type": "Tanah Mineral",
+        "peatland_name": "Lahan Non-Gambut / Tanah Mineral",
+        "frp_mw": 13.2,
+        "brightness_k": 332.66,
+        "confidence_pct": 40.0,
+        "acq_datetime": "2026-08-14T19:51:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 31.0,
+        "hazard_severity": "Low",
+        "hazard_color": "#3b82f6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.49917,
+          -2.64013
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260814-0078",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 6.2,
+        "brightness_k": 353.18,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-14T09:49:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 58.2,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.6064,
+          -2.80843
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260814-0030",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 8.7,
+        "brightness_k": 337.62,
+        "confidence_pct": 57.0,
+        "acq_datetime": "2026-08-14T09:45:23.099494+00:00",
+        "satellite": "Aqua",
+        "instrument": "MODIS",
+        "daynight": "D",
+        "hazard_score": 49.0,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.75491,
+          -2.34399
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260814-0001",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 17.2,
+        "brightness_k": 351.03,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-14T08:32:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 63.7,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.41755,
+          -2.77851
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260814-0006",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 20.7,
+        "brightness_k": 337.01,
+        "confidence_pct": 92.0,
+        "acq_datetime": "2026-08-14T06:54:23.099494+00:00",
+        "satellite": "Aqua",
+        "instrument": "MODIS",
+        "daynight": "D",
+        "hazard_score": 62.8,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.88178,
+          -2.5111
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260813-0021",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Mentaya - Katingan (Sampit)",
+        "frp_mw": 7.5,
+        "brightness_k": 317.0,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-13T15:10:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 46.6,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.31458,
+          -1.88768
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260812-0026",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "frp_mw": 16.3,
+        "brightness_k": 334.38,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-12T20:31:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 59.6,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.99076,
+          -2.64419
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260812-0154",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Mentaya - Katingan (Sampit)",
+        "frp_mw": 5.5,
+        "brightness_k": 333.05,
+        "confidence_pct": 68.0,
+        "acq_datetime": "2026-08-12T20:28:23.099494+00:00",
+        "satellite": "Aqua",
+        "instrument": "MODIS",
+        "daynight": "N",
+        "hazard_score": 47.3,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.87416,
+          -2.2432
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260812-0136",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan",
+        "frp_mw": 14.1,
+        "brightness_k": 310.0,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-12T19:29:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 43.2,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.81167,
+          -3.67116
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260812-0122",
+        "province": "Kalimantan Selatan",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Liang Anggang - Banjar",
+        "frp_mw": 11.6,
+        "brightness_k": 331.55,
+        "confidence_pct": 80.0,
+        "acq_datetime": "2026-08-12T17:00:23.099494+00:00",
+        "satellite": "Aqua",
+        "instrument": "MODIS",
+        "daynight": "D",
+        "hazard_score": 52.6,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.14851,
+          -2.00612
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260811-0108",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "frp_mw": 13.7,
+        "brightness_k": 313.36,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-11T18:34:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 44.5,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.08954,
+          -2.75558
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260811-0031",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Mentaya - Katingan (Sampit)",
+        "frp_mw": 5.1,
+        "brightness_k": 310.0,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-11T08:58:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 42.0,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.69499,
+          -2.69709
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260811-0104",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Mentaya - Katingan (Sampit)",
+        "frp_mw": 60.4,
+        "brightness_k": 319.76,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-11T03:56:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 78.4,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.16116,
+          -2.26059
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260811-0126",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C) (Buffer Zone)",
+        "frp_mw": 2.2,
+        "brightness_k": 321.27,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-11T01:06:23.099494+00:00",
+        "satellite": "NOAA21",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 45.4,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.50354,
+          -0.58473
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260810-0081",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kubu Raya - Pontianak",
+        "frp_mw": 43.7,
+        "brightness_k": 352.51,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-10T22:52:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 79.8,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.15938,
+          -1.98844
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260810-0102",
+        "province": "Kalimantan Barat",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sungai Pawan - Kendawangan (Ketapang)",
+        "frp_mw": 28.8,
+        "brightness_k": 345.92,
+        "confidence_pct": 95.0,
+        "acq_datetime": "2026-08-10T21:37:23.099494+00:00",
+        "satellite": "NOAA20",
+        "instrument": "VIIRS",
+        "daynight": "N",
+        "hazard_score": 72.1,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.88545,
+          -2.16032
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260810-0019",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Sebangau - Katingan (Buffer Zone)",
+        "frp_mw": 29.6,
+        "brightness_k": 330.47,
+        "confidence_pct": 71.0,
+        "acq_datetime": "2026-08-10T19:26:23.099494+00:00",
+        "satellite": "Terra",
+        "instrument": "MODIS",
+        "daynight": "N",
+        "hazard_score": 60.8,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.0299,
+          -2.62722
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260810-0147",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Mentaya - Katingan (Sampit)",
+        "frp_mw": 18.3,
+        "brightness_k": 347.45,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-10T15:13:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 62.7,
+        "hazard_severity": "Moderate",
+        "hazard_color": "#f59e0b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33239,
+          -2.76875
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260810-0057",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 17.2,
+        "brightness_k": 368.96,
+        "confidence_pct": 75.0,
+        "acq_datetime": "2026-08-10T09:40:23.099494+00:00",
+        "satellite": "SNPP",
+        "instrument": "VIIRS",
+        "daynight": "D",
+        "hazard_score": 70.0,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.46739,
+          -2.65073
+        ]
+      },
+      "properties": {
+        "hotspot_id": "HS-KLM-20260810-0133",
+        "province": "Kalimantan Tengah",
+        "land_type": "Lahan Gambut",
+        "peatland_name": "KHG Kahayan - Kapuas (Ex-PLG Block A-C)",
+        "frp_mw": 29.7,
+        "brightness_k": 333.24,
+        "confidence_pct": 90.0,
+        "acq_datetime": "2026-08-10T09:35:23.099494+00:00",
+        "satellite": "Terra",
+        "instrument": "MODIS",
+        "daynight": "D",
+        "hazard_score": 65.9,
+        "hazard_severity": "High",
+        "hazard_color": "#f97316"
+      }
+    }
+  ]
+}

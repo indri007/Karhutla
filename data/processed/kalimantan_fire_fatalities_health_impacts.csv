@@ -1,0 +1,6 @@
+province,capital,direct_deaths,premature_deaths_pm25_est,ispa_cases_treated,asthma_and_pneumonia_cases,emergency_hospitalizations,peak_pm25_ug_m3,air_quality_status,vulnerable_population_affected,notes
+Kalimantan Tengah,Palangka Raya,14,2450,385000,48200,12400,1980.5,Berbahaya / Hazardous (Level Ekstrem),240000,"Episentrum terparah di Kota Palangka Raya & Pulang Pisau (Eks-PLG). Langit menguning pekat, jarak pandang < 20 meter."
+Kalimantan Barat,Pontianak,9,1820,298000,36500,9800,1450.0,Sangat Tidak Sehat s/d Berbahaya,195000,Kota Pontianak & Kubu Raya terpapar asap gambut pekat berhari-hari. Bayi & lansia mengalami gangguan paru kronis.
+Kalimantan Selatan,Banjarbaru / Banjarmasin,6,1150,194000,24100,6200,890.0,Sangat Tidak Sehat (Very Unhealthy),130000,Kabut asap tebal menyelimuti area Bandara Syamsudin Noor dan kawasan gambut Liang Anggang.
+Kalimantan Timur,Samarinda,4,780,128000,15800,4100,540.0,Tidak Sehat (Unhealthy),85000,"Wilayah Kutai Kartanegara, Mahakam, dan kawasan penyangga IKN terpapar kabut asap sedang-berat."
+Kalimantan Utara,Tanjung Selor,1,260,42000,5400,1400,320.0,Sedang s/d Tidak Sehat bagi Kelompok Sensitif,32000,Terpapar kabut kiriman dari Kaltim dan kebakaran perbatasan Sesayap/Nunukan.
