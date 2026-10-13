@@ -1,0 +1,29 @@
+node_id,label,cluster_group,role,influence_score,degree_centrality,betweenness_centrality,pagerank
+C_KORPORASI_SAWIT,Korporasi Sawit Pemegang HGU,Sektor Industri & Korporasi,Pemilik Konsesi Lahan Gambut,89,0.2222,0.0114,0.0893
+G_BNPB,BNPB Indonesia,Pemerintah & Penegak Hukum,Komando Tanggap Darurat & Water Bombing,88,0.1481,0.0057,0.0382
+G_MANGGALA,Manggala Agni & TNI,Pemerintah & Penegak Hukum,Pasukan Pemadam Darat Gambut,85,0.1481,0.0043,0.0683
+G_PEMDA_KT,Pemprov Kalimantan Tengah,Pemerintah & Penegak Hukum,Pemerintah Daerah Wilayah Rentan,76,0.1111,0.0043,0.0454
+G_GAKKUM,Ditjen Gakkum KLHK,Pemerintah & Penegak Hukum,Penyidik & Eksekutor Segel Lahan,90,0.1111,0.0043,0.031
+G_BRGM,Badan Restorasi Gambut & Mangrove,Pemerintah & Penegak Hukum,Restorasi 3R & Sekat Kanal,84,0.0741,0.0028,0.031
+N_GREENPEACE,Greenpeace Indonesia,LSM & Koalisi Sipil,Investigasi Satelit Deforestasi,89,0.0741,0.0028,0.0244
+M_TEMPO,Majalah Tempo & Investigasi,Media Massa & Riset,Liputan Khusus Mafia Karhutla,88,0.0741,0.0028,0.031
+M_KOMPAS,Harian Kompas & Kompas.com,Media Massa & Riset,Jurnalisme Investigasi Lingkungan,85,0.0741,0.0014,0.0239
+V_SARAWAK,Pemerintah Negeri Sarawak (Malaysia),Publik & Transboundary ASEAN,Penerima Asap Lintas Batas (AQI 365),84,0.0741,0.0014,0.0234
+M_MONGABAY,Mongabay Indonesia,Media Massa & Riset,Jurnalisme Lingkungan Internasional,80,0.0741,0.0,0.0168
+G_KLHK,KLHK (Kementerian Kehutanan),Pemerintah & Penegak Hukum,Regulator & Pengawas Hutan,95,0.2222,0.0,0.0846
+M_IPB_UGM,Pusat Studi Gambut IPB / UGM,Media Massa & Riset,Riset Ilmiah Hidrologi & Emisi CO2,83,0.037,0.0,0.0168
+M_ANTARA,LKBN Antara,Media Massa & Riset,Kantor Berita Resmi Nasional,72,0.037,0.0,0.0168
+N_ICEL,ICEL (Hukum Lingkungan),LSM & Koalisi Sipil,Eksaminasi Peradilan Lingkungan,77,0.037,0.0,0.0168
+V_ADAT_DAYAK,Masyarakat Adat Dayak,Publik & Transboundary ASEAN,Penjaga Kearifan Lokal Peladang,81,0.037,0.0,0.0168
+V_WARGA_PLK,Warga Palangka Raya (Korban ISPA),Publik & Transboundary ASEAN,Korban Paparan Partikulat PM2.5,88,0.1481,0.0,0.1385
+N_WALHI,WALHI (Wahana Lingkungan Hidup),LSM & Koalisi Sipil,Gugatan Hukum & Advokasi Publik,92,0.1111,0.0,0.0168
+N_AURIGA,Yayasan Auriga Nusantara,LSM & Koalisi Sipil,Analisis Spasial Kepemilikan Lahan,84,0.037,0.0,0.0168
+N_PANTAU_GAMBUT,Pantau Gambut,LSM & Koalisi Sipil,Audit Kerentanan Kubah KHG,87,0.037,0.0,0.0168
+C_KONTRAKTOR,Kontraktor Land Clearing Pihak Ketiga,Sektor Industri & Korporasi,Pelaksana Pembersihan Lahan Murah,68,0.0741,0.0,0.0993
+C_SPEKULAN,Spekulan Lahan & Cukong Lokal,Sektor Industri & Korporasi,Pengupah Pembakaran Liar Murah,75,0.037,0.0,0.0244
+C_KORPORASI_HTI,Korporasi HTI Serat Kayu,Sektor Industri & Korporasi,Kanalisasi & Pengeringan Lahan,82,0.037,0.0,0.0292
+C_APHI,APHI (Pengusaha Hutan Tanaman),Sektor Industri & Korporasi,Asosiasi Pemegang IUPHHK-HTI,78,0.037,0.0,0.0168
+C_GAPKI,GAPKI (Gabungan Pengusaha Sawit),Sektor Industri & Korporasi,Asosiasi Perkebunan Kelapa Sawit,86,0.0741,0.0,0.0168
+G_POLRI,Polda & Bareskrim Polri,Pemerintah & Penegak Hukum,Penyidikan Pidana Karhutla,80,0.0741,0.0,0.0168
+G_BMKG,BMKG Stasiun Klimatologi,Pemerintah & Penegak Hukum,Penyedia Telemetri Cuaca & Hotspot,82,0.0741,0.0,0.0168
+V_SINGAPURA,National Environment Agency Singapore,Publik & Transboundary ASEAN,Monitoring Haze Corridor (PSI 210),86,0.0741,0.0,0.0168

@@ -1,0 +1,33 @@
+source,target,source_label,target_label,interaction_type,weight,sentiment
+G_GAKKUM,C_KORPORASI_SAWIT,Ditjen Gakkum KLHK,Korporasi Sawit Pemegang HGU,Penyegelan Konsesi & Sanksi Cabut Izin,9,Konflik / Penegakan
+G_GAKKUM,C_KORPORASI_HTI,Ditjen Gakkum KLHK,Korporasi HTI Serat Kayu,Gugatan Ganti Rugi Perdata Karhutla,8,Konflik / Penegakan
+G_BNPB,G_MANGGALA,BNPB Indonesia,Manggala Agni & TNI,Dukungan Water Bombing & Helikopter Patroli,10,Operasi Darurat
+G_BNPB,G_PEMDA_KT,BNPB Indonesia,Pemprov Kalimantan Tengah,Penyaluran Dana Siap Pakai & Posko Bencana,8,Dukungan Pemda
+G_BMKG,G_BNPB,BMKG Stasiun Klimatologi,BNPB Indonesia,Peringatan Dini Anomali Cuaca & Hotspot VIIRS,9,Koordinasi Operasional
+G_BMKG,G_MANGGALA,BMKG Stasiun Klimatologi,Manggala Agni & TNI,Data Real-time Arah Angin & Kekeringan Tanah,9,Dukungan Taktis
+G_BRGM,G_MANGGALA,Badan Restorasi Gambut & Mangrove,Manggala Agni & TNI,Koordinasi Operasi Pembasahan Cepat Gambut,8,Koordinasi
+G_POLRI,C_SPEKULAN,Polda & Bareskrim Polri,Spekulan Lahan & Cukong Lokal,Penetapan Tersangka Pembakaran Sengaja,8,Penegakan Hukum
+G_POLRI,C_KONTRAKTOR,Polda & Bareskrim Polri,Kontraktor Land Clearing Pihak Ketiga,Pemeriksaan Modus Land Clearing Murah,7,Penegakan Hukum
+G_MANGGALA,V_WARGA_PLK,Manggala Agni & TNI,Warga Palangka Raya (Korban ISPA),Pemadaman Api Lapisan Bawah Tanah Gambut,9,Perlindungan Warga
+G_PEMDA_KT,V_WARGA_PLK,Pemprov Kalimantan Tengah,Warga Palangka Raya (Korban ISPA),Pemberian Masker N95 & Ruang Oksigen Gratis,7,Layanan Darurat
+C_GAPKI,G_KLHK,GAPKI (Gabungan Pengusaha Sawit),KLHK (Kementerian Kehutanan),Klaim Kepatuhan Standard ISPO & Fire-Free,7,Lobi / Klarifikasi
+C_GAPKI,M_KOMPAS,GAPKI (Gabungan Pengusaha Sawit),Harian Kompas & Kompas.com,Klarifikasi Dalih Api Merembet dari Luar Konsesi,7,Hubungan Media
+C_APHI,G_KLHK,APHI (Pengusaha Hutan Tanaman),KLHK (Kementerian Kehutanan),Laporan Patroli Regu Pemadam Kebakaran Mandiri,6,Laporan Kepatuhan
+C_KORPORASI_SAWIT,C_KONTRAKTOR,Korporasi Sawit Pemegang HGU,Kontraktor Land Clearing Pihak Ketiga,Perjanjian Outsourcing Pembersihan Lahan Murah,8,Transaksi Ekonomi
+N_WALHI,G_KLHK,WALHI (Wahana Lingkungan Hidup),KLHK (Kementerian Kehutanan),Gugatan Warga Negara (Citizen Lawsuit),9,Kritik / Advokasi
+N_WALHI,C_KORPORASI_SAWIT,WALHI (Wahana Lingkungan Hidup),Korporasi Sawit Pemegang HGU,Rilis Daftar Hitam Korporasi Pembakar,9,Konflik / Ekspose
+N_WALHI,V_WARGA_PLK,WALHI (Wahana Lingkungan Hidup),Warga Palangka Raya (Korban ISPA),Pendampingan Hukum Gugatan Korban Polusi Asap,9,Bantuan Hukum
+N_GREENPEACE,C_KORPORASI_SAWIT,Greenpeace Indonesia,Korporasi Sawit Pemegang HGU,Publikasi Laporan Spasial Deforestasi,9,Ekspose Publik
+N_PANTAU_GAMBUT,G_BRGM,Pantau Gambut,Badan Restorasi Gambut & Mangrove,Audit Efektivitas Sekat Kanal Gambut,8,Evaluasi Ilmiah
+N_AURIGA,M_TEMPO,Yayasan Auriga Nusantara,Majalah Tempo & Investigasi,Suplai Data Spasial Investigasi HGU Bermasalah,9,Kolaborasi Media
+N_ICEL,G_GAKKUM,ICEL (Hukum Lingkungan),Ditjen Gakkum KLHK,Eksaminasi Eksekusi Putusan Inkrah Pengadilan,8,Kolaborasi Yuridis
+M_KOMPAS,V_WARGA_PLK,Harian Kompas & Kompas.com,Warga Palangka Raya (Korban ISPA),Pemberitaan Krisis Kesehatan & Bayi Terpapar ISPA,9,Human Interest
+M_TEMPO,C_KORPORASI_SAWIT,Majalah Tempo & Investigasi,Korporasi Sawit Pemegang HGU,Liputan Investigatif Konsesi Berulang Terbakar,9,Liputan Kritis
+M_MONGABAY,N_GREENPEACE,Mongabay Indonesia,Greenpeace Indonesia,Wawancara Analisis Hilangnya Habitat Orangutan,8,Liputan Global
+M_MONGABAY,V_SARAWAK,Mongabay Indonesia,Pemerintah Negeri Sarawak (Malaysia),Liputan Kualitas Udara Berbahaya di Perbatasan,7,Liputan Regional
+M_IPB_UGM,G_KLHK,Pusat Studi Gambut IPB / UGM,KLHK (Kementerian Kehutanan),Policy Paper Emisi Karbon Gambut Terbakar,7,Rekomendasi Riset
+M_ANTARA,G_BNPB,LKBN Antara,BNPB Indonesia,Rilis Resmi Jumlah Titik Api & Luas Area Terbakar,8,Informasi Publik
+V_ADAT_DAYAK,G_PEMDA_KT,Masyarakat Adat Dayak,Pemprov Kalimantan Tengah,Tuntutan Perlindungan Hukum Peladang Tradisional,8,Tuntutan Hak
+V_SARAWAK,G_KLHK,Pemerintah Negeri Sarawak (Malaysia),KLHK (Kementerian Kehutanan),Nota Diplomatik Pencemaran Asap Lintas Batas,9,Protes Diplomatik
+V_SINGAPURA,G_KLHK,National Environment Agency Singapore,KLHK (Kementerian Kehutanan),Aktivasi Transboundary Haze Pollution Act (THPA),9,Tuntutan Regulasi
+V_SINGAPURA,C_KORPORASI_SAWIT,National Environment Agency Singapore,Korporasi Sawit Pemegang HGU,Pemantauan Satelit terhadap Direksi Korporasi Sawit,8,Penyelidikan Ekstrateritorial

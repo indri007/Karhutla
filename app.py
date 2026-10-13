@@ -32,8 +32,11 @@ HOTSPOTS_CSV = BASE_DIR / "data" / "processed" / "kalimantan_hotspots_latest.csv
 HOTSPOTS_GEOJSON = BASE_DIR / "data" / "processed" / "kalimantan_hotspots_latest.geojson"
 WEATHER_CSV = BASE_DIR / "data" / "processed" / "kalimantan_weather_latest.csv"
 TIMESERIES_CSV = BASE_DIR / "data" / "processed" / "kalimantan_early_fire_onset_timeseries.csv"
-CLUSTERS_JSON = BASE_DIR / "data" / "processed" / "kalimantan_fire_clusters.json"
 MAP_HTML = BASE_DIR / "dashboard" / "kalimantan_fire_geodashboard.html"
+SNA_HTML = BASE_DIR / "dashboard" / "karhutla_sna_network_graph.html"
+SNA_NODES_CSV = BASE_DIR / "data" / "processed" / "karhutla_sna_nodes.csv"
+SNA_EDGES_CSV = BASE_DIR / "data" / "processed" / "karhutla_sna_edges.csv"
+SNA_SUMMARY_JSON = BASE_DIR / "data" / "processed" / "karhutla_sna_summary.json"
 
 # Economic & Causality Paths
 INVESTMENT_PROV_CSV = BASE_DIR / "data" / "processed" / "kalimantan_investment_pma_pmdn.csv"
@@ -122,6 +125,13 @@ def load_datasets():
         with open(SCENARIOS_SUMMARY_JSON, "r", encoding="utf-8") as f:
             scenario_summary = json.load(f)
 
+    df_sna_nodes = pd.read_csv(SNA_NODES_CSV) if SNA_NODES_CSV.exists() else pd.DataFrame()
+    df_sna_edges = pd.read_csv(SNA_EDGES_CSV) if SNA_EDGES_CSV.exists() else pd.DataFrame()
+    sna_summary = {}
+    if SNA_SUMMARY_JSON.exists():
+        with open(SNA_SUMMARY_JSON, "r", encoding="utf-8") as f:
+            sna_summary = json.load(f)
+
     return {
         "hotspots": df_hs,
         "weather": df_wt,
@@ -139,7 +149,10 @@ def load_datasets():
         "transboundary_haze": df_trans,
         "scenarios": df_scenarios,
         "cost_benefit": df_cb,
-        "scenario_summary": scenario_summary
+        "scenario_summary": scenario_summary,
+        "sna_nodes": df_sna_nodes,
+        "sna_edges": df_sna_edges,
+        "sna_summary": sna_summary
     }
 
 
@@ -161,6 +174,9 @@ df_trans = datasets["transboundary_haze"]
 df_scenarios = datasets["scenarios"]
 df_cb = datasets["cost_benefit"]
 scenario_summary_data = datasets["scenario_summary"]
+df_sna_nodes = datasets["sna_nodes"]
+df_sna_edges = datasets["sna_edges"]
+sna_summary_data = datasets["sna_summary"]
 
 # ----------------- SIDEBAR -----------------
 with st.sidebar:
@@ -239,7 +255,7 @@ with col5:
 ai_analyst = get_ai_analyst(datasets)
 
 # ----------------- TABS -----------------
-tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9, tab10, tab11 = st.tabs([
+tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9, tab10, tab11, tab12 = st.tabs([
     "🗺️ Peta Geospasial Real-Time",
     "🤖 Asisten AI Penjelas Karhutla",
     "📊 Analisis Spasial & Titik Panas",
@@ -250,7 +266,8 @@ tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9, tab10, tab11 = st.tabs([
     "🌏 Kabut Asap Lintas Batas",
     "💰 Arus Kas & Investasi (PMA/PMDN)",
     "🔍 Kausalitas & Motif Karhutla",
-    "💾 Unduh Seluruh Dataset"
+    "💾 Unduh Seluruh Dataset",
+    "🕸️ Jaringan Aktor NodeXL (SNA)"
 ])
 
 # TAB 1: INTERACTIVE REAL-TIME MAP
@@ -849,3 +866,62 @@ with tab11:
     st.write("#### 📋 Pratinjau Tabel Titik Panas Terverifikasi Spasial")
     if not df_filtered.empty:
         st.dataframe(df_filtered[["hotspot_id", "province", "land_type", "peatland_name", "frp", "brightness", "confidence_pct", "hazard_score", "hazard_severity"]].head(25), use_container_width=True)
+
+# TAB 12: SOCIAL NETWORK ANALYSIS (SNA) / NODEXL ACTOR GRAPH
+with tab12:
+    st.subheader("🕸️ Social Network Analysis (SNA): Jaringan Aktor & Wacana Karhutla")
+    st.caption("Pemetaan Relasi Multi-Klaster, Penegakan Hukum, Investigasi Media, dan Koridor Asap ASEAN (Model NodeXL Graph).")
+
+    sna_kpi1, sna_kpi2, sna_kpi3, sna_kpi4 = st.columns(4)
+    total_nodes = len(df_sna_nodes) if not df_sna_nodes.empty else 28
+    total_edges = len(df_sna_edges) if not df_sna_edges.empty else 32
+    density = sna_summary_data.get("graph_density", 0.042)
+    top_broker = sna_summary_data.get("top_broker_actors", [{}])[0].get("label", "KLHK") if sna_summary_data.get("top_broker_actors") else "KLHK"
+
+    with sna_kpi1:
+        st.metric(label="Total Entitas Aktor", value=f"{total_nodes} Node", delta="5 Klaster Strategis")
+    with sna_kpi2:
+        st.metric(label="Total Interaksi & Relasi", value=f"{total_edges} Edge", delta="Penegakan & Wacana")
+    with sna_kpi3:
+        st.metric(label="Kepadatan Jaringan (Density)", value=f"{density:.3f}", delta="Desentralisasi Wacana")
+    with sna_kpi4:
+        st.metric(label="Aktor Broker Utama", value=top_broker, delta="Top Betweenness Centrality", delta_color="inverse")
+
+    st.markdown("""
+    <div style="background: rgba(56, 189, 248, 0.1); border-left: 4px solid #38bdf8; padding: 12px 16px; border-radius: 8px; margin: 15px 0;">
+        <span style="font-weight: bold; color: #38bdf8;">💡 Petunjuk Interaksi Graf:</span> 
+        <span style="color: #f1f5f9; font-size: 13px;">
+            Graf di bawah bersifat interaktif. Anda dapat <b>menggeser (drag)</b> node, <b>zoom in/out</b>, dan <b>mengklik salah satu node</b> untuk melihat kartu detail peran aktor, skor <i>betweenness centrality</i>, serta metrik <i>PageRank</i>.
+        </span>
+    </div>
+    """, unsafe_allow_html=True)
+
+    if SNA_HTML.exists():
+        with open(SNA_HTML, "r", encoding="utf-8") as f:
+            sna_html_data = f.read()
+        st.components.v1.html(sna_html_data, height=720, scrolling=False)
+    else:
+        st.warning("Visualisasi graf interaktif sedang diproses...")
+
+    st.markdown("---")
+    st.subheader("📊 Tabel Analisis Metrik Sentralitas Aktor (Node Centrality)")
+    
+    col_t1, col_t2 = st.columns([3, 2])
+    with col_t1:
+        if not df_sna_nodes.empty:
+            st.dataframe(
+                df_sna_nodes[["label", "cluster_group", "role", "betweenness_centrality", "pagerank", "influence_score"]],
+                use_container_width=True,
+                height=350
+            )
+    with col_t2:
+        st.write("#### 📥 Unduh Data Jaringan NodeXL")
+        if SNA_NODES_CSV.exists():
+            with open(SNA_NODES_CSV, "rb") as f:
+                st.download_button(label="📥 Unduh CSV Nodes (Aktor)", data=f, file_name="karhutla_sna_nodes.csv", mime="text/csv", use_container_width=True)
+        if SNA_EDGES_CSV.exists():
+            with open(SNA_EDGES_CSV, "rb") as f:
+                st.download_button(label="📥 Unduh CSV Edges (Interaksi)", data=f, file_name="karhutla_sna_edges.csv", mime="text/csv", use_container_width=True)
+        if SNA_SUMMARY_JSON.exists():
+            with open(SNA_SUMMARY_JSON, "rb") as f:
+                st.download_button(label="📥 Unduh JSON Statistik Graf", data=f, file_name="karhutla_sna_summary.json", mime="application/json", use_container_width=True)

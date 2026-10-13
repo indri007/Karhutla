@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Network Analysis (SNA) - Aktor & Wacana Karhutla Indonesia</title>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background-color: #080C14;
+            color: #F8FAFC;
+            font-family: 'Inter', -apple-system, sans-serif;
+            overflow: hidden;
+            width: 100vw;
+            height: 100vh;
+        }
+        #header {
+            position: absolute;
+            top: 20px;
+            left: 24px;
+            z-index: 100;
+            background: rgba(17, 24, 39, 0.85);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 16px 22px;
+            border-radius: 14px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+            max-width: 460px;
+        }
+        #header h1 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #F8FAFC;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        #header p {
+            font-size: 0.82rem;
+            color: #94A3B8;
+            margin-top: 6px;
+            line-height: 1.4;
+        }
+        .legend {
+            margin-top: 12px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.75rem;
+            color: #CBD5E1;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 4px 8px;
+            border-radius: 6px;
+        }
+        .legend-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+        #network {
+            width: 100vw;
+            height: 100vh;
+        }
+        #info-card {
+            position: absolute;
+            bottom: 24px;
+            right: 24px;
+            z-index: 100;
+            background: rgba(17, 24, 39, 0.85);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 18px 22px;
+            border-radius: 14px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+            width: 320px;
+            display: none;
+        }
+        #info-card h3 {
+            font-size: 1rem;
+            color: #38BDF8;
+            margin-bottom: 6px;
+        }
+        #info-card .meta-row {
+            font-size: 0.8rem;
+            color: #94A3B8;
+            margin-bottom: 4px;
+        }
+        #info-card .meta-row strong {
+            color: #E2E8F0;
+        }
+        .btn-controls {
+            position: absolute;
+            top: 20px;
+            right: 24px;
+            z-index: 100;
+            display: flex;
+            gap: 8px;
+        }
+        .btn-controls button {
+            background: rgba(17, 24, 39, 0.85);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            color: #F8FAFC;
+            padding: 8px 14px;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .btn-controls button:hover {
+            background: #F97316;
+            border-color: #F97316;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>🕸️ Karhutla Social Network Analysis (SNA)</h1>
+        <p>Peta interaksi, penegakan hukum, investigasi media, dan koridor asap transboundary ASEAN. Diadaptasi dari pemodelan graf multi-klaster NodeXL.</p>
+        <div class="legend">
+            <div class="legend-item"><div class="legend-dot" style="background:#3b82f6;"></div>Pemerintah & Gakkum</div>
+            <div class="legend-item"><div class="legend-dot" style="background:#ef4444;"></div>Korporasi & Cukong</div>
+            <div class="legend-item"><div class="legend-dot" style="background:#10b981;"></div>LSM & Koalisi Sipil</div>
+            <div class="legend-item"><div class="legend-dot" style="background:#a855f7;"></div>Media & Akademisi</div>
+            <div class="legend-item"><div class="legend-dot" style="background:#f59e0b;"></div>Publik & Koridor ASEAN</div>
+        </div>
+    </div>
+
+    <div class="btn-controls">
+        <button onclick="network.fit({animation: true})">Pusatkan Graf</button>
+        <button onclick="togglePhysics()">Bekukan Fisika</button>
+    </div>
+
+    <div id="network"></div>
+
+    <div id="info-card">
+        <h3 id="card-title">-</h3>
+        <div class="meta-row">Klaster: <strong id="card-group">-</strong></div>
+        <div class="meta-row">Peran: <strong id="card-role">-</strong></div>
+        <div class="meta-row">Betweenness Centrality: <strong id="card-betweenness">-</strong></div>
+        <div class="meta-row">PageRank Score: <strong id="card-pagerank">-</strong></div>
+    </div>
+
+    <script type="text/javascript">
+        const nodes = new vis.DataSet([{"id": "G_KLHK", "label": "KLHK (Kementerian Kehutanan)", "title": "<b>KLHK (Kementerian Kehutanan)</b><br>Klaster: Pemerintah & Penegak Hukum<br>Peran: Regulator & Pengawas Hutan<br>Betweenness Centrality: 0.0000<br>PageRank: 0.0846", "group": "Pemerintah & Penegak Hukum", "value": 18, "color": {"background": "#3b82f6", "border": "#60a5fa"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "G_GAKKUM", "label": "Ditjen Gakkum KLHK", "title": "<b>Ditjen Gakkum KLHK</b><br>Klaster: Pemerintah & Penegak Hukum<br>Peran: Penyidik & Eksekutor Segel Lahan<br>Betweenness Centrality: 0.0043<br>PageRank: 0.0310", "group": "Pemerintah & Penegak Hukum", "value": 18, "color": {"background": "#3b82f6", "border": "#60a5fa"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "G_BNPB", "label": "BNPB Indonesia", "title": "<b>BNPB Indonesia</b><br>Klaster: Pemerintah & Penegak Hukum<br>Peran: Komando Tanggap Darurat & Water Bombing<br>Betweenness Centrality: 0.0057<br>PageRank: 0.0382", "group": "Pemerintah & Penegak Hukum", "value": 18, "color": {"background": "#3b82f6", "border": "#60a5fa"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "G_BMKG", "label": "BMKG Stasiun Klimatologi", "title": "<b>BMKG Stasiun Klimatologi</b><br>Klaster: Pemerintah & Penegak Hukum<br>Peran: Penyedia Telemetri Cuaca & Hotspot<br>Betweenness Centrality: 0.0000<br>PageRank: 0.0168", "group": "Pemerintah & Penegak Hukum", "value": 18, "color": {"background": "#3b82f6", "border": "#60a5fa"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "G_BRGM", "label": "Badan Restorasi Gambut & Mangrove", "title": "<b>Badan Restorasi Gambut & Mangrove</b><br>Klaster: Pemerintah & Penegak Hukum<br>Peran: Restorasi 3R & Sekat Kanal<br>Betweenness Centrality: 0.0028<br>PageRank: 0.0310", "group": "Pemerintah & Penegak Hukum", "value": 18, "color": {"background": "#3b82f6", "border": "#60a5fa"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "G_POLRI", "label": "Polda & Bareskrim Polri", "title": "<b>Polda & Bareskrim Polri</b><br>Klaster: Pemerintah & Penegak Hukum<br>Peran: Penyidikan Pidana Karhutla<br>Betweenness Centrality: 0.0000<br>PageRank: 0.0168", "group": "Pemerintah & Penegak Hukum", "value": 18, "color": {"background": "#3b82f6", "border": "#60a5fa"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "G_MANGGALA", "label": "Manggala Agni & TNI", "title": "<b>Manggala Agni & TNI</b><br>Klaster: Pemerintah & Penegak Hukum<br>Peran: Pasukan Pemadam Darat Gambut<br>Betweenness Centrality: 0.0043<br>PageRank: 0.0683", "group": "Pemerintah & Penegak Hukum", "value": 18, "color": {"background": "#3b82f6", "border": "#60a5fa"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "G_PEMDA_KT", "label": "Pemprov Kalimantan Tengah", "title": "<b>Pemprov Kalimantan Tengah</b><br>Klaster: Pemerintah & Penegak Hukum<br>Peran: Pemerintah Daerah Wilayah Rentan<br>Betweenness Centrality: 0.0043<br>PageRank: 0.0454", "group": "Pemerintah & Penegak Hukum", "value": 18, "color": {"background": "#3b82f6", "border": "#60a5fa"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "C_GAPKI", "label": "GAPKI (Gabungan Pengusaha Sawit)", "title": "<b>GAPKI (Gabungan Pengusaha Sawit)</b><br>Klaster: Sektor Industri & Korporasi<br>Peran: Asosiasi Perkebunan Kelapa Sawit<br>Betweenness Centrality: 0.0000<br>PageRank: 0.0168", "group": "Sektor Industri & Korporasi", "value": 18, "color": {"background": "#ef4444", "border": "#f87171"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "C_APHI", "label": "APHI (Pengusaha Hutan Tanaman)", "title": "<b>APHI (Pengusaha Hutan Tanaman)</b><br>Klaster: Sektor Industri & Korporasi<br>Peran: Asosiasi Pemegang IUPHHK-HTI<br>Betweenness Centrality: 0.0000<br>PageRank: 0.0168", "group": "Sektor Industri & Korporasi", "value": 18, "color": {"background": "#ef4444", "border": "#f87171"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "C_KORPORASI_SAWIT", "label": "Korporasi Sawit Pemegang HGU", "title": "<b>Korporasi Sawit Pemegang HGU</b><br>Klaster: Sektor Industri & Korporasi<br>Peran: Pemilik Konsesi Lahan Gambut<br>Betweenness Centrality: 0.0114<br>PageRank: 0.0893", "group": "Sektor Industri & Korporasi", "value": 19, "color": {"background": "#ef4444", "border": "#f87171"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "C_KORPORASI_HTI", "label": "Korporasi HTI Serat Kayu", "title": "<b>Korporasi HTI Serat Kayu</b><br>Klaster: Sektor Industri & Korporasi<br>Peran: Kanalisasi & Pengeringan Lahan<br>Betweenness Centrality: 0.0000<br>PageRank: 0.0292", "group": "Sektor Industri & Korporasi", "value": 18, "color": {"background": "#ef4444", "border": "#f87171"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "C_SPEKULAN", "label": "Spekulan Lahan & Cukong Lokal", "title": "<b>Spekulan Lahan & Cukong Lokal</b><br>Klaster: Sektor Industri & Korporasi<br>Peran: Pengupah Pembakaran Liar Murah<br>Betweenness Centrality: 0.0000<br>PageRank: 0.0244", "group": "Sektor Industri & Korporasi", "value": 18, "color": {"background": "#ef4444", "border": "#f87171"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "C_KONTRAKTOR", "label": "Kontraktor Land Clearing Pihak Ketiga", "title": "<b>Kontraktor Land Clearing Pihak Ketiga</b><br>Klaster: Sektor Industri & Korporasi<br>Peran: Pelaksana Pembersihan Lahan Murah<br>Betweenness Centrality: 0.0000<br>PageRank: 0.0993", "group": "Sektor Industri & Korporasi", "value": 18, "color": {"background": "#ef4444", "border": "#f87171"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "N_WALHI", "label": "WALHI (Wahana Lingkungan Hidup)", "title": "<b>WALHI (Wahana Lingkungan Hidup)</b><br>Klaster: LSM & Koalisi Sipil<br>Peran: Gugatan Hukum & Advokasi Publik<br>Betweenness Centrality: 0.0000<br>PageRank: 0.0168", "group": "LSM & Koalisi Sipil", "value": 18, "color": {"background": "#10b981", "border": "#34d399"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "N_GREENPEACE", "label": "Greenpeace Indonesia", "title": "<b>Greenpeace Indonesia</b><br>Klaster: LSM & Koalisi Sipil<br>Peran: Investigasi Satelit Deforestasi<br>Betweenness Centrality: 0.0028<br>PageRank: 0.0244", "group": "LSM & Koalisi Sipil", "value": 18, "color": {"background": "#10b981", "border": "#34d399"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "N_PANTAU_GAMBUT", "label": "Pantau Gambut", "title": "<b>Pantau Gambut</b><br>Klaster: LSM & Koalisi Sipil<br>Peran: Audit Kerentanan Kubah KHG<br>Betweenness Centrality: 0.0000<br>PageRank: 0.0168", "group": "LSM & Koalisi Sipil", "value": 18, "color": {"background": "#10b981", "border": "#34d399"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "N_AURIGA", "label": "Yayasan Auriga Nusantara", "title": "<b>Yayasan Auriga Nusantara</b><br>Klaster: LSM & Koalisi Sipil<br>Peran: Analisis Spasial Kepemilikan Lahan<br>Betweenness Centrality: 0.0000<br>PageRank: 0.0168", "group": "LSM & Koalisi Sipil", "value": 18, "color": {"background": "#10b981", "border": "#34d399"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "N_ICEL", "label": "ICEL (Hukum Lingkungan)", "title": "<b>ICEL (Hukum Lingkungan)</b><br>Klaster: LSM & Koalisi Sipil<br>Peran: Eksaminasi Peradilan Lingkungan<br>Betweenness Centrality: 0.0000<br>PageRank: 0.0168", "group": "LSM & Koalisi Sipil", "value": 18, "color": {"background": "#10b981", "border": "#34d399"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "M_KOMPAS", "label": "Harian Kompas & Kompas.com", "title": "<b>Harian Kompas & Kompas.com</b><br>Klaster: Media Massa & Riset<br>Peran: Jurnalisme Investigasi Lingkungan<br>Betweenness Centrality: 0.0014<br>PageRank: 0.0239", "group": "Media Massa & Riset", "value": 18, "color": {"background": "#a855f7", "border": "#c084fc"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "M_TEMPO", "label": "Majalah Tempo & Investigasi", "title": "<b>Majalah Tempo & Investigasi</b><br>Klaster: Media Massa & Riset<br>Peran: Liputan Khusus Mafia Karhutla<br>Betweenness Centrality: 0.0028<br>PageRank: 0.0310", "group": "Media Massa & Riset", "value": 18, "color": {"background": "#a855f7", "border": "#c084fc"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "M_MONGABAY", "label": "Mongabay Indonesia", "title": "<b>Mongabay Indonesia</b><br>Klaster: Media Massa & Riset<br>Peran: Jurnalisme Lingkungan Internasional<br>Betweenness Centrality: 0.0000<br>PageRank: 0.0168", "group": "Media Massa & Riset", "value": 18, "color": {"background": "#a855f7", "border": "#c084fc"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "M_IPB_UGM", "label": "Pusat Studi Gambut IPB / UGM", "title": "<b>Pusat Studi Gambut IPB / UGM</b><br>Klaster: Media Massa & Riset<br>Peran: Riset Ilmiah Hidrologi & Emisi CO2<br>Betweenness Centrality: 0.0000<br>PageRank: 0.0168", "group": "Media Massa & Riset", "value": 18, "color": {"background": "#a855f7", "border": "#c084fc"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "M_ANTARA", "label": "LKBN Antara", "title": "<b>LKBN Antara</b><br>Klaster: Media Massa & Riset<br>Peran: Kantor Berita Resmi Nasional<br>Betweenness Centrality: 0.0000<br>PageRank: 0.0168", "group": "Media Massa & Riset", "value": 18, "color": {"background": "#a855f7", "border": "#c084fc"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "V_WARGA_PLK", "label": "Warga Palangka Raya (Korban ISPA)", "title": "<b>Warga Palangka Raya (Korban ISPA)</b><br>Klaster: Publik & Transboundary ASEAN<br>Peran: Korban Paparan Partikulat PM2.5<br>Betweenness Centrality: 0.0000<br>PageRank: 0.1385", "group": "Publik & Transboundary ASEAN", "value": 18, "color": {"background": "#f59e0b", "border": "#fbbf24"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "V_ADAT_DAYAK", "label": "Masyarakat Adat Dayak", "title": "<b>Masyarakat Adat Dayak</b><br>Klaster: Publik & Transboundary ASEAN<br>Peran: Penjaga Kearifan Lokal Peladang<br>Betweenness Centrality: 0.0000<br>PageRank: 0.0168", "group": "Publik & Transboundary ASEAN", "value": 18, "color": {"background": "#f59e0b", "border": "#fbbf24"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "V_SARAWAK", "label": "Pemerintah Negeri Sarawak (Malaysia)", "title": "<b>Pemerintah Negeri Sarawak (Malaysia)</b><br>Klaster: Publik & Transboundary ASEAN<br>Peran: Penerima Asap Lintas Batas (AQI 365)<br>Betweenness Centrality: 0.0014<br>PageRank: 0.0234", "group": "Publik & Transboundary ASEAN", "value": 18, "color": {"background": "#f59e0b", "border": "#fbbf24"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}, {"id": "V_SINGAPURA", "label": "National Environment Agency Singapore", "title": "<b>National Environment Agency Singapore</b><br>Klaster: Publik & Transboundary ASEAN<br>Peran: Monitoring Haze Corridor (PSI 210)<br>Betweenness Centrality: 0.0000<br>PageRank: 0.0168", "group": "Publik & Transboundary ASEAN", "value": 18, "color": {"background": "#f59e0b", "border": "#fbbf24"}, "font": {"color": "#ffffff", "face": "Inter, sans-serif", "size": 13}}]);
+        const edges = new vis.DataSet([{"from": "G_GAKKUM", "to": "C_KORPORASI_SAWIT", "label": "Penyegelan Konsesi & Sanksi Cabut Izin", "title": "Penyegelan Konsesi & Sanksi Cabut Izin (Bobot: 9)", "width": 4, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "G_GAKKUM", "to": "C_KORPORASI_HTI", "label": "Gugatan Ganti Rugi Perdata Karhutla", "title": "Gugatan Ganti Rugi Perdata Karhutla (Bobot: 8)", "width": 4, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "G_BNPB", "to": "G_MANGGALA", "label": "Dukungan Water Bombing & Helikopter Patroli", "title": "Dukungan Water Bombing & Helikopter Patroli (Bobot: 10)", "width": 5, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "G_BNPB", "to": "G_PEMDA_KT", "label": "Penyaluran Dana Siap Pakai & Posko Bencana", "title": "Penyaluran Dana Siap Pakai & Posko Bencana (Bobot: 8)", "width": 4, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "G_BMKG", "to": "G_BNPB", "label": "Peringatan Dini Anomali Cuaca & Hotspot VIIRS", "title": "Peringatan Dini Anomali Cuaca & Hotspot VIIRS (Bobot: 9)", "width": 4, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "G_BMKG", "to": "G_MANGGALA", "label": "Data Real-time Arah Angin & Kekeringan Tanah", "title": "Data Real-time Arah Angin & Kekeringan Tanah (Bobot: 9)", "width": 4, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "G_BRGM", "to": "G_MANGGALA", "label": "Koordinasi Operasi Pembasahan Cepat Gambut", "title": "Koordinasi Operasi Pembasahan Cepat Gambut (Bobot: 8)", "width": 4, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "G_POLRI", "to": "C_SPEKULAN", "label": "Penetapan Tersangka Pembakaran Sengaja", "title": "Penetapan Tersangka Pembakaran Sengaja (Bobot: 8)", "width": 4, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "G_POLRI", "to": "C_KONTRAKTOR", "label": "Pemeriksaan Modus Land Clearing Murah", "title": "Pemeriksaan Modus Land Clearing Murah (Bobot: 7)", "width": 3, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "G_MANGGALA", "to": "V_WARGA_PLK", "label": "Pemadaman Api Lapisan Bawah Tanah Gambut", "title": "Pemadaman Api Lapisan Bawah Tanah Gambut (Bobot: 9)", "width": 4, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "G_PEMDA_KT", "to": "V_WARGA_PLK", "label": "Pemberian Masker N95 & Ruang Oksigen Gratis", "title": "Pemberian Masker N95 & Ruang Oksigen Gratis (Bobot: 7)", "width": 3, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "C_GAPKI", "to": "G_KLHK", "label": "Klaim Kepatuhan Standard ISPO & Fire-Free", "title": "Klaim Kepatuhan Standard ISPO & Fire-Free (Bobot: 7)", "width": 3, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "C_GAPKI", "to": "M_KOMPAS", "label": "Klarifikasi Dalih Api Merembet dari Luar Konsesi", "title": "Klarifikasi Dalih Api Merembet dari Luar Konsesi (Bobot: 7)", "width": 3, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "C_APHI", "to": "G_KLHK", "label": "Laporan Patroli Regu Pemadam Kebakaran Mandiri", "title": "Laporan Patroli Regu Pemadam Kebakaran Mandiri (Bobot: 6)", "width": 3, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "C_KORPORASI_SAWIT", "to": "C_KONTRAKTOR", "label": "Perjanjian Outsourcing Pembersihan Lahan Murah", "title": "Perjanjian Outsourcing Pembersihan Lahan Murah (Bobot: 8)", "width": 4, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "N_WALHI", "to": "G_KLHK", "label": "Gugatan Warga Negara (Citizen Lawsuit)", "title": "Gugatan Warga Negara (Citizen Lawsuit) (Bobot: 9)", "width": 4, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "N_WALHI", "to": "C_KORPORASI_SAWIT", "label": "Rilis Daftar Hitam Korporasi Pembakar", "title": "Rilis Daftar Hitam Korporasi Pembakar (Bobot: 9)", "width": 4, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "N_WALHI", "to": "V_WARGA_PLK", "label": "Pendampingan Hukum Gugatan Korban Polusi Asap", "title": "Pendampingan Hukum Gugatan Korban Polusi Asap (Bobot: 9)", "width": 4, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "N_GREENPEACE", "to": "C_KORPORASI_SAWIT", "label": "Publikasi Laporan Spasial Deforestasi", "title": "Publikasi Laporan Spasial Deforestasi (Bobot: 9)", "width": 4, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "N_PANTAU_GAMBUT", "to": "G_BRGM", "label": "Audit Efektivitas Sekat Kanal Gambut", "title": "Audit Efektivitas Sekat Kanal Gambut (Bobot: 8)", "width": 4, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "N_AURIGA", "to": "M_TEMPO", "label": "Suplai Data Spasial Investigasi HGU Bermasalah", "title": "Suplai Data Spasial Investigasi HGU Bermasalah (Bobot: 9)", "width": 4, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "N_ICEL", "to": "G_GAKKUM", "label": "Eksaminasi Eksekusi Putusan Inkrah Pengadilan", "title": "Eksaminasi Eksekusi Putusan Inkrah Pengadilan (Bobot: 8)", "width": 4, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "M_KOMPAS", "to": "V_WARGA_PLK", "label": "Pemberitaan Krisis Kesehatan & Bayi Terpapar ISPA", "title": "Pemberitaan Krisis Kesehatan & Bayi Terpapar ISPA (Bobot: 9)", "width": 4, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "M_TEMPO", "to": "C_KORPORASI_SAWIT", "label": "Liputan Investigatif Konsesi Berulang Terbakar", "title": "Liputan Investigatif Konsesi Berulang Terbakar (Bobot: 9)", "width": 4, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "M_MONGABAY", "to": "N_GREENPEACE", "label": "Wawancara Analisis Hilangnya Habitat Orangutan", "title": "Wawancara Analisis Hilangnya Habitat Orangutan (Bobot: 8)", "width": 4, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "M_MONGABAY", "to": "V_SARAWAK", "label": "Liputan Kualitas Udara Berbahaya di Perbatasan", "title": "Liputan Kualitas Udara Berbahaya di Perbatasan (Bobot: 7)", "width": 3, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "M_IPB_UGM", "to": "G_KLHK", "label": "Policy Paper Emisi Karbon Gambut Terbakar", "title": "Policy Paper Emisi Karbon Gambut Terbakar (Bobot: 7)", "width": 3, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "M_ANTARA", "to": "G_BNPB", "label": "Rilis Resmi Jumlah Titik Api & Luas Area Terbakar", "title": "Rilis Resmi Jumlah Titik Api & Luas Area Terbakar (Bobot: 8)", "width": 4, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "V_ADAT_DAYAK", "to": "G_PEMDA_KT", "label": "Tuntutan Perlindungan Hukum Peladang Tradisional", "title": "Tuntutan Perlindungan Hukum Peladang Tradisional (Bobot: 8)", "width": 4, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "V_SARAWAK", "to": "G_KLHK", "label": "Nota Diplomatik Pencemaran Asap Lintas Batas", "title": "Nota Diplomatik Pencemaran Asap Lintas Batas (Bobot: 9)", "width": 4, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "V_SINGAPURA", "to": "G_KLHK", "label": "Aktivasi Transboundary Haze Pollution Act (THPA)", "title": "Aktivasi Transboundary Haze Pollution Act (THPA) (Bobot: 9)", "width": 4, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}, {"from": "V_SINGAPURA", "to": "C_KORPORASI_SAWIT", "label": "Pemantauan Satelit terhadap Direksi Korporasi Sawit", "title": "Pemantauan Satelit terhadap Direksi Korporasi Sawit (Bobot: 8)", "width": 4, "arrows": "to", "color": {"color": "rgba(255, 255, 255, 0.25)", "highlight": "#f97316", "hover": "#38bdf8"}, "font": {"color": "rgba(255, 255, 255, 0.5)", "size": 9, "align": "middle"}}]);
+
+        const container = document.getElementById('network');
+        const data = { nodes: nodes, edges: edges };
+        const options = {
+            nodes: {
+                shape: 'dot',
+                shadow: true
+            },
+            edges: {
+                smooth: {
+                    type: 'continuous',
+                    roundness: 0.2
+                },
+                arrows: { to: { enabled: true, scaleFactor: 0.6 } }
+            },
+            physics: {
+                barnesHut: {
+                    gravitationalConstant: -7500,
+                    centralGravity: 0.35,
+                    springLength: 140,
+                    springConstant: 0.04,
+                    damping: 0.09
+                },
+                stabilization: { iterations: 200 }
+            },
+            interaction: {
+                hover: true,
+                tooltipDelay: 100,
+                navigationButtons: false,
+                keyboard: true
+            }
+        };
+
+        const network = new vis.Network(container, data, options);
+        let physicsEnabled = true;
+
+        function togglePhysics() {
+            physicsEnabled = !physicsEnabled;
+            network.setOptions({ physics: { enabled: physicsEnabled } });
+        }
+
+        network.on("click", function (params) {
+            if (params.nodes.length > 0) {
+                const nodeId = params.nodes[0];
+                const nodeData = nodes.get(nodeId);
+                document.getElementById('card-title').innerText = nodeData.label;
+                document.getElementById('card-group').innerText = nodeData.group;
+                
+                // Parse details from title HTML
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(nodeData.title, 'text/html');
+                const textLines = doc.body.innerText.split('\n');
+                
+                document.getElementById('card-role').innerText = textLines[2]?.replace('Peran: ', '') || '-';
+                document.getElementById('card-betweenness').innerText = textLines[3]?.replace('Betweenness Centrality: ', '') || '-';
+                document.getElementById('card-pagerank').innerText = textLines[4]?.replace('PageRank: ', '') || '-';
+
+                document.getElementById('info-card').style.display = 'block';
+            } else {
+                document.getElementById('info-card').style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>

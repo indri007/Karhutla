@@ -1,0 +1,66 @@
+{
+  "total_nodes": 28,
+  "total_edges": 32,
+  "graph_density": 0.0423,
+  "top_broker_actors": [
+    {
+      "node_id": "C_KORPORASI_SAWIT",
+      "label": "Korporasi Sawit Pemegang HGU",
+      "betweenness_centrality": 0.0114
+    },
+    {
+      "node_id": "G_BNPB",
+      "label": "BNPB Indonesia",
+      "betweenness_centrality": 0.0057
+    },
+    {
+      "node_id": "G_MANGGALA",
+      "label": "Manggala Agni & TNI",
+      "betweenness_centrality": 0.0043
+    },
+    {
+      "node_id": "G_PEMDA_KT",
+      "label": "Pemprov Kalimantan Tengah",
+      "betweenness_centrality": 0.0043
+    },
+    {
+      "node_id": "G_GAKKUM",
+      "label": "Ditjen Gakkum KLHK",
+      "betweenness_centrality": 0.0043
+    }
+  ],
+  "top_influential_actors": [
+    {
+      "node_id": "V_WARGA_PLK",
+      "label": "Warga Palangka Raya (Korban ISPA)",
+      "pagerank": 0.1385
+    },
+    {
+      "node_id": "C_KONTRAKTOR",
+      "label": "Kontraktor Land Clearing Pihak Ketiga",
+      "pagerank": 0.0993
+    },
+    {
+      "node_id": "C_KORPORASI_SAWIT",
+      "label": "Korporasi Sawit Pemegang HGU",
+      "pagerank": 0.0893
+    },
+    {
+      "node_id": "G_KLHK",
+      "label": "KLHK (Kementerian Kehutanan)",
+      "pagerank": 0.0846
+    },
+    {
+      "node_id": "G_MANGGALA",
+      "label": "Manggala Agni & TNI",
+      "pagerank": 0.0683
+    }
+  ],
+  "cluster_breakdown": {
+    "Pemerintah & Penegak Hukum": 8,
+    "Sektor Industri & Korporasi": 6,
+    "LSM & Koalisi Sipil": 5,
+    "Media Massa & Riset": 5,
+    "Publik & Transboundary ASEAN": 4
+  }
+}
