@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large Datasets cloned into data/ (submodules / external repos)
+data/CanadaFireSat/
+data/CanadaFireSat-Raw/
+data/aml_indo_fires/
+data/fire-fusion-cascades-500m/
+data/fire-progression-dataset-sample-nips/
+data/forest-fire-dataset/
+data/hotspot-dataset/
+data/seasfire_monthly/
+data/wildfire-dataset-pipeline/
+
+# OS files
+.DS_Store
+Thumbs.db
