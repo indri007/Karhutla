@@ -32,6 +32,7 @@ HOTSPOTS_CSV = BASE_DIR / "data" / "processed" / "kalimantan_hotspots_latest.csv
 HOTSPOTS_GEOJSON = BASE_DIR / "data" / "processed" / "kalimantan_hotspots_latest.geojson"
 WEATHER_CSV = BASE_DIR / "data" / "processed" / "kalimantan_weather_latest.csv"
 TIMESERIES_CSV = BASE_DIR / "data" / "processed" / "kalimantan_early_fire_onset_timeseries.csv"
+CLUSTERS_JSON = BASE_DIR / "data" / "processed" / "kalimantan_fire_clusters.json"
 MAP_HTML = BASE_DIR / "dashboard" / "kalimantan_fire_geodashboard.html"
 SNA_HTML = BASE_DIR / "dashboard" / "karhutla_sna_network_graph.html"
 SNA_NODES_CSV = BASE_DIR / "data" / "processed" / "karhutla_sna_nodes.csv"
